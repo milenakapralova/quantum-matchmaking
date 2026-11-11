@@ -1,0 +1,402 @@
+{
+  "source": {
+    "title": "Exploratory Quantum Technology Assessment",
+    "file": "EQTA - english version.pdf",
+    "year": 2023,
+    "pdf_produced": "2023-04-13",
+    "commissioned_by": "Quantum Delta Nederland, Centre for Quantum and Society",
+    "developed_with": "ECP | Platform for the Information Society",
+    "funded_by": "Ministry of Economic Affairs and Climate, via the Quantum Delta Netherlands Growth Fund",
+    "chairs": ["Bart Schermer", "Daniël Frijters"],
+    "copyright": "2023 Quantum Delta Nederland",
+    "status": "Voluntary practical roadmap. Binding use is a forecast about future regulation, not the status of this edition.",
+    "page_map": "Booklet page P is PDF page P+3.",
+    "contact": "cqs@quantumdelta.nl"
+  },
+  "records": [
+    {
+      "id": "eqta-definition",
+      "type": "concept",
+      "title": "Exploratory Quantum Technology Assessment",
+      "summary": "A practical roadmap that helps organizations explore the societal, technical, legal, and ethical implications of quantum technology early enough to seize opportunities, avoid negative impacts, set preconditions, decide, justify the decision, and review it.",
+      "pages": "3-8, 11-15",
+      "tags": ["definition", "purpose"]
+    },
+    {
+      "id": "why-exploratory",
+      "type": "concept",
+      "title": "Why the assessment is called exploratory",
+      "summary": "Quantum technology and its surrounding conditions change quickly: security and privacy law, data and cloud regulation, standardization, and geopolitics.",
+      "pages": "3",
+      "tags": ["definition"]
+    },
+    {
+      "id": "audiences",
+      "type": "audience",
+      "title": "Who the EQTA is for",
+      "summary": "Organizations that will feel the impact of quantum technology, and organizations that develop or apply it. Typical initiators are quantum-application frontrunners, innovation managers, chief security officers, chief information officers, lawyers, and ethicists. They need management, future users, affected parties, and often providers and specialists in the room.",
+      "pages": "4-5",
+      "tags": ["audience"]
+    },
+    {
+      "id": "not-a-substitute",
+      "type": "limit",
+      "title": "Relationship to DPIA and IAMA",
+      "summary": "The EQTA does not replace a Data Protection Impact Assessment or a Human Rights and Algorithms Impact Assessment. If quantum technology is used to improve machine-learning models, use the IAMA as well. Added value is an early, structured look at quantum-specific impact.",
+      "pages": "30",
+      "tags": ["scope", "assessment"]
+    },
+    {
+      "id": "not-a-checklist",
+      "type": "limit",
+      "title": "Not a right-or-wrong checklist",
+      "summary": "The EQTA does not say what is responsible, allowed, or forbidden. It shifts the question from whether a technology is responsible to how a specific application in a specific context can be developed and used responsibly.",
+      "pages": "61, 68",
+      "tags": ["ethics", "method"]
+    },
+    {
+      "id": "structure",
+      "type": "process",
+      "title": "Three-part structure",
+      "summary": "Quick Scan; exploration (steps 1-3: social, technological, legal and ethical); in practice (steps 4-7: dialogue, trade-off, record, review). The Quick Scan can be the end of the process. Overlap between steps is expected. Unanswered questions need a monitoring process rather than a forced answer.",
+      "pages": "11-15, 35",
+      "tags": ["process"]
+    },
+    {
+      "id": "quick-scan",
+      "type": "process",
+      "title": "Quick Scan",
+      "summary": "Orient on the technology and timelines, orient on applications, describe impact and opportunities and threats, do a broad stakeholder analysis, then hold a dialogue. Continue to step 1 if the organization must act or actively monitor. Otherwise document and justify the decision to stop.",
+      "pages": "6-8, 11-12, 35",
+      "tags": ["process", "quick-scan"]
+    },
+    {
+      "id": "step-1",
+      "type": "process",
+      "title": "Step 1. Societal framework",
+      "summary": "Five aspects drawn from the WRR account of system technologies: perception (demystification), socio-technical ecosystem (contextualization), stakeholders (engagement), regulatory frameworks (regulation), and international context (positioning).",
+      "pages": "13, 36-47",
+      "tags": ["step-1", "society"]
+    },
+    {
+      "id": "system-technology-caveat",
+      "type": "concept",
+      "title": "System technology, and the working group's objection",
+      "summary": "The WRR treats AI, and by extension quantum technology, as a system technology, like electricity, the combustion engine, and the internet. Some EQTA authors reject the label because it implies a break with the past and can produce rules for the new technology that ignore the same problems in existing IT. The EQTA's social and ethical attention is also a plea to examine existing information technology.",
+      "pages": "36-37",
+      "tags": ["step-1", "caveat"]
+    },
+    {
+      "id": "quantum-computer-myth",
+      "type": "concept",
+      "title": "The quantum computer is not better at everything",
+      "summary": "A recurring myth is that a quantum computer is superior to a classical computer in all respects. The document calls this unfair: the promise is an advantage for certain kinds of problems. Not everyone needs to understand the mechanism. Unrealistic perceptions should not block application, and people should still be able to take part in decisions about it.",
+      "pages": "38-39",
+      "tags": ["perception", "computing"]
+    },
+    {
+      "id": "cloud-access",
+      "type": "fact",
+      "title": "Quantum computing is expected mainly as a cloud service",
+      "summary": "Experts expect quantum computing power and simulators to be offered chiefly as cloud services. Quantum Inspire from QuTech Delft is the example. Practical success then depends partly on access to those services, which a single organization often cannot create alone.",
+      "pages": "40",
+      "tags": ["computing", "infrastructure"]
+    },
+    {
+      "id": "sovereignty",
+      "type": "concept",
+      "title": "International context and sovereignty",
+      "summary": "Quantum research is international and expensive, so a few players dominate and almost every application has an international component. The field is increasingly shaped by sovereignty: export and import controls, limits on collaboration outside Europe, and limits on foreign ownership. That desire can conflict with the international research community. A race-with-one-winner frame is rejected as misleading.",
+      "pages": "46-47",
+      "tags": ["geopolitics", "step-1"]
+    },
+    {
+      "id": "step-2",
+      "type": "process",
+      "title": "Step 2. Technological framework",
+      "summary": "Set generic requirements because quantum technology enters data-centric applications: quality (functionality, robustness, repairability, security, flexibility, manageability, integration, sustainability, with ISO 25010 as the checklist); privacy, security, data, identity, authentication, and authorization; and future-proof investment with freedom from vendor lock-in.",
+      "pages": "13, 48-53",
+      "tags": ["step-2", "technology"]
+    },
+    {
+      "id": "data-sharing-choice",
+      "type": "question",
+      "title": "Which data is shared",
+      "summary": "Quantum computing will require large amounts of data made available between parties. Decide which data is cooperative, which is competitive, which is confidential, and which is open. A management organization may be needed for security, privacy, and quality.",
+      "pages": "49-50",
+      "tags": ["data", "step-2"]
+    },
+    {
+      "id": "data-ecosystems",
+      "type": "example",
+      "title": "Data-collaboration initiatives named",
+      "summary": "International Data Spaces, Catena-X (printed as Cathena-X), Gaia-X, the Smart Connected Supply Network around Brainport Eindhoven, iSHARE in logistics, and the Dutch mobility-data ecosystem. Similar work is noted in agriculture, healthcare, and energy.",
+      "pages": "50",
+      "tags": ["data", "ecosystem"]
+    },
+    {
+      "id": "identity-and-assurance",
+      "type": "concept",
+      "title": "Identity, continuity, and interoperability",
+      "summary": "Identity solutions in the pipeline include the European e-wallet and self-sovereign identity. Quantum technology bought as a service increases interdependence; the financial sector's ISAE practice and the Dutch Online Trust Coalition are the models for managing security and continuity. FAIR principles are the reference for data interoperability.",
+      "pages": "51",
+      "tags": ["identity", "security", "data"]
+    },
+    {
+      "id": "open-standards",
+      "type": "recommendation",
+      "title": "Open standards against lock-in",
+      "summary": "Early dominance and proprietary standards create vendor lock-in. Users should cooperate early with other users and with vendors on open standards. NEN can initiate processes and connect organizations to standardization committees. Standards also signal maturity and help later entrants.",
+      "pages": "52-53",
+      "tags": ["standards", "procurement"]
+    },
+    {
+      "id": "step-3-law",
+      "type": "process",
+      "title": "Step 3. Legal framework",
+      "summary": "Map international fundamental rights and treaties, domestic and sectoral law, oversight of finance, security, continuity, and accountability, intellectual property and technology-specific regimes, and geopolitical limits on collaboration. Law is sometimes solidified ethics, and it lags new technology.",
+      "pages": "14, 53-61",
+      "tags": ["step-3", "law"]
+    },
+    {
+      "id": "no-quantum-statute",
+      "type": "fact",
+      "title": "No dedicated quantum statute in 2023",
+      "summary": "The document states there is not yet legislation aimed specifically at the social opportunities and negative impacts of quantum technology. Ask whether the application stands alone or is combined with AI, biotechnology, or other technology. The EU AI Act is described as a proposal with four risk tiers: prohibited, high, limited, and minimal. High-risk systems need CE marking before market entry.",
+      "pages": "56-57",
+      "tags": ["law", "ai-act", "as-of-2023"]
+    },
+    {
+      "id": "expected-quantum-law",
+      "type": "forecast",
+      "title": "What the document expects the EU to do",
+      "summary": "Within a few years: a Quantum Governance Act; possibly a Quantum Treaty; standardization, certification, and lifecycle auditing through binding EQTA-style assessments; possible export controls affecting research, materials, and the software and hardware supply chain; demanding conditions on R&D funding. Dual-use is the reason a risk-based approach is considered a fit. These are 2023 expectations, not law then in force.",
+      "pages": "58-59",
+      "tags": ["law", "forecast", "dual-use"]
+    },
+    {
+      "id": "us-policy",
+      "type": "fact",
+      "title": "US quantum policy as described",
+      "summary": "The text dates two presidential directives to May 2021 and a national security memorandum to May of the surrounding period. The footnote URL is the White House fact sheet of 4 May 2022. Policy is described as promoting US innovation while using export controls, anti-IP-theft measures, and cybercrime-risk reduction to protect economic stability and national security.",
+      "pages": "58",
+      "tags": ["geopolitics", "law"]
+    },
+    {
+      "id": "quantum-elspi",
+      "type": "concept",
+      "title": "Quantum-ELSPI",
+      "summary": "Ethical, legal, social, and policy implications of quantum technology. EQTA users should identify current and future legal requirements and anticipate them, including intellectual-property rights and duties.",
+      "pages": "59",
+      "tags": ["elsa", "law"]
+    },
+    {
+      "id": "sector-law",
+      "type": "fact",
+      "title": "Sector laws named",
+      "summary": "Financial Supervision Act (Wft), Anti-Money Laundering and Anti-Terrorist Financing Act (Wwft), Telecommunications Act, Medical Treatment Agreement Act (WGBO), Medical Device Regulation, Product Safety Directive, and Machinery Regulation. US or Asian business adds local law.",
+      "pages": "59",
+      "tags": ["law", "sector"]
+    },
+    {
+      "id": "medical-hybrid",
+      "type": "example",
+      "title": "Quantum-infused medical device",
+      "summary": "A European medical device that also uses AI or machine learning and classical data is a quantum/AI hybrid. The stack foreseen once relevant EU laws pass: AI Act, Quantum Governance Act, European data-strategy laws, Medical Device Regulation, Database Directive, IP directives, possibly Wassenaar export controls, and Dutch law. The EQTA can also drive an IP review: patents, copyrights, trade secrets, university transfer terms, and licenses for third-party IP.",
+      "pages": "60-61",
+      "tags": ["healthcare", "law", "ip"]
+    },
+    {
+      "id": "security-privacy-tradeoff",
+      "type": "concept",
+      "title": "Security versus the ability to intercept",
+      "summary": "Quantum communications and a quantum internet inherit an existing conflict. Confidentiality of government and citizen communications pulls toward encryption that cannot be broken. National security and criminal investigation pull toward interception. Chapter 13 of the Telecommunications Act requires public telecom networks to be interceptable. The GDPR and the Network and Information Systems Security Act require appropriate security, including encryption. The Wiv debate is the Dutch illustration.",
+      "pages": "61-62",
+      "tags": ["security", "privacy", "networks"]
+    },
+    {
+      "id": "wef-scope",
+      "type": "concept",
+      "title": "WEF governance principles cover computing only",
+      "summary": "The World Economic Forum's 2022 Quantum Computing Governance Principles are the ethical guide used in the EQTA, and they apply to quantum computing, not to the whole quantum-technology family.",
+      "pages": "63",
+      "tags": ["ethics", "computing"]
+    },
+    {
+      "id": "wef-values",
+      "type": "concept",
+      "title": "Core values drawn from the WEF",
+      "summary": "Common good, accountability, inclusivity, equitability, non-maleficence, accessibility, and transparency. Legal compliance does not exhaust non-maleficence: unintended harm still has to be looked for and corrected. Accessibility implies standards, open entry, and eventual affordability, and can conflict with military and market-concentration interests.",
+      "pages": "64-67",
+      "tags": ["ethics"]
+    },
+    {
+      "id": "other-ethics",
+      "type": "recommendation",
+      "title": "Choosing an ethical framework",
+      "summary": "Another framework is acceptable if it has a clear scientific method and a reliable source such as the UN, OECD, Asilomar, or the IEEE. It should be as quantum-specific as possible, then supplemented for the particular system. A technology ethicist can help. Do the work in a multidisciplinary team.",
+      "pages": "67",
+      "tags": ["ethics"]
+    },
+    {
+      "id": "guidance-ethics",
+      "type": "process",
+      "title": "Step 4. Guidance ethics dialogue",
+      "summary": "Three stages: describe the technology concretely in context; identify actors, positive and negative effects, and values; name measures in the technology, the context, or the use. Participants are domain experts, administrators, affected stakeholders, and the people who will work with the technology. The Quick Scan uses the same dialogue to decide whether to continue.",
+      "pages": "15, 68-70",
+      "tags": ["step-4", "dialogue"]
+    },
+    {
+      "id": "step-5-tests",
+      "type": "process",
+      "title": "Step 5. Four tests",
+      "summary": "Effectiveness: will the action achieve the goal. Necessity and subsidiarity: is this the least intrusive means among the available tools. Proportionality: is the impact on people justified by the importance of the goal. The short roadmap omits effectiveness and lists subsidiarity, proportionality, and necessity; the full chapter includes all four.",
+      "pages": "15, 70-71",
+      "tags": ["step-5", "trade-off"]
+    },
+    {
+      "id": "step-6-7",
+      "type": "process",
+      "title": "Steps 6 and 7. Record and review",
+      "summary": "Write the decision and its reasons so they can guide design and be shown later. Annex 2 is the documentation scheme; the fill-in roadmap is a separate download from quantumdelta.nl. Then install a feedback loop and a planned moment to test the decision and the effect of the measures. The annex calls evaluation perhaps the most important part.",
+      "pages": "15, 71, 101-103",
+      "tags": ["step-6", "step-7"]
+    },
+    {
+      "id": "examples-not-use-cases",
+      "type": "limit",
+      "title": "Examples, not use cases",
+      "summary": "Applications are still mostly in research or the lab, so the document presents preparations and explorations rather than mature use cases. Some require action now. Others are early looks at later possibilities.",
+      "pages": "75",
+      "tags": ["examples"]
+    },
+    {
+      "id": "example-water",
+      "type": "example",
+      "title": "Surface-water monitoring",
+      "summary": "The Ministry of Infrastructure and Water Management is preparing quantum-secure government and, separately, exploring quantum sensors plus AI, machine learning, and simulation for real-time knowledge of substances in surface water and of how pollution spreads. Today's method is laboratory samples and cannot see every compound. Pressures named include PFAS, manure, and pesticides. Quantum computing is expected eventually to strengthen the dispersion models. The aim is better insight at manageable cost for monitoring, treatment, and enforcement.",
+      "pages": "76-77",
+      "tags": ["sensing", "water", "government"]
+    },
+    {
+      "id": "example-rotterdam",
+      "type": "example",
+      "title": "Port of Rotterdam quantum network",
+      "summary": "A pilot of quantum key distribution so the port authority can communicate with parties such as harbour masters and customs. Interception of keys is detectable; the encrypted payload travels on the ordinary internet. Protocol BB84 (1984), practical use in the preceding decade. Participants include the Port Authority, Portbase, and nautical service providers. The goal is to validate the technology. The setup is described as extendable to many users at relatively low cost. Port figures given: nearly 15 million sea containers a year, 8.2 percent of Dutch GDP, 63 billion euros, more than 500,000 jobs.",
+      "pages": "78-79",
+      "tags": ["qkd", "port", "critical-infrastructure"]
+    },
+    {
+      "id": "example-pqc-migration",
+      "type": "example",
+      "title": "Quantum-safe migration in government and banking",
+      "summary": "Quantum-safe cryptography runs on ordinary computers and phones. NIST had selected candidate methods that were being tested toward a standard. Government is planning migration against store-now-decrypt-later attacks on long-lived secrets, aiming at a quantum-secure government. The Dutch Banking Association focuses on ATMs, which last more than ten years, and on seminars, staff training, and international counterparts.",
+      "pages": "79-80",
+      "tags": ["pqc", "government", "finance"]
+    },
+    {
+      "id": "example-finance-opportunity",
+      "type": "example",
+      "title": "Quantum opportunities in finance",
+      "summary": "Case studies explore optimization for interest-rate prediction and portfolio management, machine learning, faster trading via atomic clocks, Monte Carlo simulation for anti-money-laundering detection, and quantum methods for authentication and authorization.",
+      "pages": "81",
+      "tags": ["finance", "computing"]
+    },
+    {
+      "id": "example-telecom",
+      "type": "example",
+      "title": "Telecom effects and readiness",
+      "summary": "Atomic clocks at TRL 6 can raise network capacity through more accurate synchronization. Gravity sensors at TRL 4 could map the subsurface for infrastructure works. A new generation of antennas is at TRL 1. Quantum sensors across air, water, and soil would demand large investment in safe data transport. Quantum key distribution over fiber supports encryption and authentication; providers help build that infrastructure, and geopolitical dependence may require action before the technology is mature. Quantum computing and quantum machine learning could optimize load, maintenance, and design, with a winner-takes-all risk for whoever holds the most data unless there is cooperative governance. Networks and equipment need to be quantum-secure a decade out, so work starts in the next few years.",
+      "pages": "83-85",
+      "tags": ["telecom", "trl", "sensing", "qkd"]
+    },
+    {
+      "id": "trl-scale",
+      "type": "concept",
+      "title": "Technology Readiness Levels as defined",
+      "summary": "NASA's scale. TRL 1: basic principle observed. Feasibility is examined one or two levels higher. From TRL 4 the technology is developed. TRL 5 and 6 add demonstration. TRL 6 through 9 develop systems and subsystems. TRL 9: tested and ready to implement.",
+      "pages": "90",
+      "tags": ["trl"]
+    },
+    {
+      "id": "do-not-mystify",
+      "type": "concept",
+      "title": "Explain function, not mystique",
+      "summary": "Entanglement and superposition are predictive concepts, compared to the law of gravity, not explanations of a mechanism. The EQTA refuses phrasings such as being in two places at once, properties appearing only when observed, and faster-than-light communication. The 1927 Solvay Conference is the milestone for a complete physical description. Users do not need that account in order to judge applications and their limits.",
+      "pages": "90-92",
+      "tags": ["perception", "primer"]
+    },
+    {
+      "id": "three-applications",
+      "type": "concept",
+      "title": "Three application families",
+      "summary": "Sensors, networks, and computers. Quantum-secure encryption is a fourth, society-wide issue that does not depend on an organization adopting quantum technology.",
+      "pages": "93",
+      "tags": ["taxonomy"]
+    },
+    {
+      "id": "sensors",
+      "type": "technology",
+      "title": "Quantum sensors",
+      "summary": "More precise, robust, and perhaps cheaper measurement of time, motion, acceleration, dimension, gravity, current, and voltage. Expected in professional equipment for healthcare, logistics, construction, and telecom: sharper MRI, subsurface gravity maps, positioning without GPS, more efficient lasers, faster clocks and synchronization, possibly smaller chips and simpler antennas. Some clocks are already coming to market; many other sensors are still in laboratories. Widespread precise measurement raises ethical and legal questions about desirability, necessity, and safeguards.",
+      "pages": "93-94",
+      "tags": ["sensing"]
+    },
+    {
+      "id": "networks",
+      "type": "technology",
+      "title": "Quantum networks",
+      "summary": "Over coming decades, new functions on existing fiber, air, and satellite networks. Near-term focus is quantum key distribution and stronger authentication and authorization, at TRL 4-6 or reaching the market in the next few years. Key-exchange standardization is advanced. Confidential transport plus identity is not full confidentiality. Linking quantum processors for distributed computing will take longer.",
+      "pages": "94-95",
+      "tags": ["networks", "qkd"]
+    },
+    {
+      "id": "computers",
+      "type": "technology",
+      "title": "Quantum computers",
+      "summary": "Faster solution of specific problems: simulation of molecules and atoms for drugs, materials, and chemical and biological processes; optimization in traffic, logistics, finance, and healthcare, and search of large unstructured data; breaking some current encryption and authentication; machine learning. Small machines exist for experiment. Serious applications still need breakthroughs in computing power, quantum memory, storage, control electronics, algorithms, and software. Heuristic use, reaching a useful result without exhaustive computation, is closer. Figure 08, from Birch 2021, says simple applications need more than 10,000 qubits.",
+      "pages": "95-97",
+      "tags": ["computing"]
+    },
+    {
+      "id": "pqc-now",
+      "type": "recommendation",
+      "title": "Prepare quantum-safe encryption now",
+      "summary": "Fit-for-purpose quantum computers are expected to be at least a decade away, and anticipation should start now because today's common encryption can be broken and attackers can store ciphertext for later. Quantum computers are not required to deploy quantum-safe encryption. Information that must stay confidential for more than ten years, and devices that live longer than ten years (ATMs, bridges, locks, archives), should already use or be ready for quantum-safe methods. In 2023 the document describes NIST public-key standardization as conceptual. Sector collaboration is required because not every organization will have the knowledge.",
+      "pages": "98",
+      "tags": ["pqc", "as-of-2023"]
+    },
+    {
+      "id": "store-now-decrypt-later",
+      "type": "risk",
+      "title": "Store now, decrypt later",
+      "summary": "An attacker keeps encrypted confidential information today and decrypts it when a quantum computer can break the cipher. This is why long-lived secrets and long-lived equipment cannot wait for the computer to arrive.",
+      "pages": "80, 98",
+      "tags": ["pqc", "risk"]
+    },
+    {
+      "id": "cqs-role",
+      "type": "organization",
+      "title": "Centre for Quantum and Society",
+      "summary": "Part of QDNL. Commissioned the EQTA. Works on ELSA tooling and research, awareness, and societal issues quantum technology can address. First place to take questions the EQTA does not answer. Contact cqs@quantumdelta.nl.",
+      "pages": "30, 108",
+      "tags": ["organization"]
+    },
+    {
+      "id": "qdnl-activities",
+      "type": "organization",
+      "title": "QDNL activities named",
+      "summary": "Quantum.Amsterdam awareness training focused on computing; Quantum for Business field lab for the European market; CQS as the co-creation place for society, industry, government, and science; House of Quantum as future national physical spaces; five hubs (Delta, Eindhoven, Leiden, Twente, Amsterdam); Quantum Application Lab for end-user quantum-computing applications, including societal issues with CQS.",
+      "pages": "31",
+      "tags": ["organization", "ecosystem"]
+    },
+    {
+      "id": "working-principles",
+      "type": "concept",
+      "title": "How the EQTA was written",
+      "summary": "A working group of technology creators, innovation managers and pioneers, and lawyers and ethicists. Integration principles: constructive, participatory, bottom-up, and practical. Chairs: Bart Schermer and Daniël Frijters. Commissioning note from Freeke Heijman.",
+      "pages": "17-25",
+      "tags": ["governance"]
+    }
+  ]
+}

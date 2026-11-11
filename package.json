@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "rsync -avz --delete --exclude cgi-bin --exclude .DS_Store --exclude 'table copy.png' -e \"ssh -p 26\" matchmaking-tool/ jc117416@h39.mijn.host:domains/match.milenakapralova.dev/public_html/"
+  }
+}

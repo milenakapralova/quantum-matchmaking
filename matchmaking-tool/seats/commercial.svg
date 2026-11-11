@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 660 940" width="400" height="570">
+<g transform="translate(660,0) scale(-1,1)">
+  <rect x="0" y="10" width="660" height="940" fill="#fff"/>
+
+  <!-- rear post + rear leg: crescent that hooks over at the top into a pointed tip, as in the original -->
+  <path d="M23.7,52 Q24,33 53.7,32.5 Q40,46 38.4,72 L82.6,545 C86,600 62,800 50,934 L40,934 C44,820 60.2,540 55,470 Z" fill="#000"/>
+
+  <!-- padded backrest: sloped top edge, small top-left round, large top-right round, vertical right edge -->
+  <path d="M48.5,55 Q48.5,40 68.7,40 L278.7,49 C301,50.4 318,66 318,89.5 L318,276 Q318,297.1 298,294.3 L96,285.6 Q76,284.8 73.5,266 Z" fill="#000"/>
+
+  <!-- slim rear stile under the backrest's right edge, ends inside the seat -->
+  <path d="M286,284 L316,285 L338,492 L308,492 Z" fill="#000"/>
+
+  <!-- far-side legs: shorter and thinner -->
+  <path d="M226,520 L274,516 Q268,700 260,862 L253,860 Q242,700 226,520 Z" fill="#000"/>
+  <path d="M424,520 L470,518 Q470,690 468,846 L461,844 Q446,690 424,520 Z" fill="#000"/>
+
+  <!-- thin seat slab: straight top and bottom edges, rounded nose, small fillets where it meets the post -->
+  <path d="M64,486 L74.5,458 Q77,485 112,484.8 L548,472 Q616,472 620,494 Q620,512 596,518 L130,542 Q83.2,543.4 83.2,566 L64,566 Z" fill="#000"/>
+
+  <!-- near front leg, sweeping forward out of the seat -->
+  <path d="M524,524 Q562,522 592,504 Q600,720 604,936 L596,936 Q568,740 524,524 Z" fill="#000"/>
+</g>
+</svg>

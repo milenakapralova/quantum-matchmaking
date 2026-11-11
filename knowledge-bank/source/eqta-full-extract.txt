@@ -1,0 +1,2675 @@
+
+
+===== PAGE 1 =====
+Exploratory
+Quantum
+Technology
+Assessment
+Direct the impact of Quantum Technology
+
+===== PAGE 2 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+EQTA was made possible by the Ministry of Economic Affairs and
+Climate and funded by the Quantum Delta Netherlands Growth Fund.
+EQTA is a tool developed by the Centre for Quantum and Society.
+
+===== PAGE 3 =====
+02 0011
+Exploratory
+Quantum
+Technology
+Assessment
+
+===== PAGE 4 =====
+ExploratoryQuantumTechnologyAssessment
+A practical roadmap for organizations for exploring
+the societal, technical, legal, and ethical implications
+of quantum technology.
+
+===== PAGE 5 =====
+02 03
+Goal Exploratory1 Quantum Technology
+Assessment (EQTA)
+QQuantum technology is a key technology: it is an
+impactful technology that is increasingly becoming
+part of the products and services around us, of our
+computers, sensors, and networks. The opportunities
+this brings to society, economy, and science are significant,
+and quantum technology will be able to positively
+contribute to the challenges facing society.
+Quantum technology is developing rapidly: some applications are
+already possible today, others will come to market in the coming
+years, and some will require major technical breakthroughs still.
+However, the direction of these developments is partly determined by
+the opportunities and application potential that organizations and
+society are aiming for. Thinking about the opportunities and
+possibilities, while timely creating the prerequisites for responsible
+application requires a focused effort.
+The EQTA is a practical roadmap that helps organizations with this
+effort: by exploring the opportunities and impact of quantum
+technology in a timely manner, an organization can avoid negative
+1 Theword‘exploratory’wasadoptedbecausequantumtechnologyisrapidlyevolving,asare
+thecircumstancesaffectingapplications:thinkoftheupcomingandever-changinglawsand
+regulationsaroundsecurityandprivacy,dataandcloud,therapidstandardizationdevel-
+opmentsofquantumtechnology,andgeopoliticaldevelopments.
+
+===== PAGE 6 =====
+ExploratoryQuantumTechnologyAssessment
+impacts and set preconditions. This is required to ensure that
+opportunities and impact can be managed.
+The EQTA is an instrument through which Quantum Delta
+Netherlands (QDNL), which combines efforts in the Netherlands
+around quantum technology, contributes to the optimal and
+responsible use of opportunities of quantum technology.
+The EQTA supports two types of organizations:
+• Organizations experiencing the impact of quantum technology now
+or in the future once quantum technology is increasingly adopted.
+• Organizations developing or applying quantum technology
+themselves at present or in future.
+The EQTA – Quick Scan and roadmap
+The EQTA begins with a Quick Scan that consists of:
+• Exploration of technology: what is it? A brief orientation on
+quantum technology and timelines. (See Appendix 01: Quantum
+technology in brief).
+• Exploration of application possibilities: what is in store for the
+organization? A brief orientation of application possibilities using
+examples. (see page 30: EQTA and Quantum Delta Nederland).
+• Brief description: based on the impression of application
+possibilities using examples, outline what impact the organization
+will experience from quantum technology and/or which of the
+applications are relevant to a specific organization.
+• Brief stakeholder analysis: who are the important stakeholders/
+experts that will be impacted?
+• Dialogue session: explore and test what is needed to make the
+most of the possibilities of quantum technology and, if necessary,
+avoid negative impacts (see page 15: In practice - step 4: Dialogue
+with stakeholders).
+
+===== PAGE 7 =====
+04 05
+Should the dialogue session reveal that action is necessary,
+organizations may then proceed through the entire EQTA to further
+explore specific areas (societal, technical, legal, and ethical).
+Who is the EQTA for?
+The EQTA is relevant to any organization that is impacted by
+application of quantum technology or is concerned with the (future)
+development and application of quantum technology, the opportunities
+it presents for the organization, and what is needed to responsibly
+realize those opportunities and avoid negative impacts. To explore
+the opportunities and consequences, societal, technical, legal, and
+ethical frameworks are involved. More specifically, this would include
+quantum application frontrunners, innovation managers, (Chief)
+Security Officers, (Chief) Information Officers, lawyers, and ethicists.
+It is important to consider that while these audiences may take the
+initiative to go through EQTA, they will need—to properly consider
+the various interests and perspectives—to engage with various
+experts and stakeholders. For instance, management and administra-
+tors, the people who will have to work with the technology, and those
+organizations and individuals involved experiencing its impact. Some
+issues can only be properly framed by also involving service providers,
+technology providers, or scientists and experts in a specific field
+(think experts on the societal, technological, legal, and ethical
+aspects). Who are involved in the dialogue depends very much on
+the nature and impact of quantum technology on the organization.
+This dialogue is necessary because decisions around quantum
+technology often (will) require very complex considerations, involving
+the considerations and knowledge of experts from very different
+fields and stakeholders with very different backgrounds. Moreover,
+the uncertainties surrounding the technology must be considered
+while not losing sight of the organizational goals. The dialogue
+aims to ensure that those involved develop such knowledge and
+understanding of each other's perspectives that they can collectively
+devise approaches that do the maximum amount of justice to those
+
+===== PAGE 8 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+perspectives (see page 15: In practice - step 4: Dialogue with
+stakeholders).
+The EQTA helps organizations to identify those various aspects and
+come to a decision — and justify that decision, then set up processes
+to evaluate those considerations and incorporate new information
+and insights
+
+===== PAGE 9 =====
+0066 0077
+“Quantum technology is a key
+technology: it is an impactful
+technology that is increasingly
+becoming part of the products
+and services around us”
+
+===== PAGE 10 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Quick Scan
+and roadmap
+QUICKSCAN
+Quantum Technology
+The EQTA helps organizations exploration and timelines
+(page89)
+take the steps necessary for
+responsible application of
+quantum technology and ExploreApplications:
+examplesofapplications
+to manage its impact. (page75)
+The Quickscan provides a
+Describeimpactonorganization,
+quick overview of the points of opportunities,andpotential
+threats(page13)
+attention to guide the impact
+of quantum technology in
+a timely manner.
+Performastakeholderanalysis
+(page69)
+If the quickscan shows that
+responsible embedding of
+Organizeadialogue
+quantum technology requires tovalidatethedescription,
+develop,anddecideifitis
+active guidance, then proceed necessarytocontinue
+theEQTA(page69)
+to step 1 of the Roadmap.
+If active guidance is not Decide:isitnecessaryto
+continuetothefullEQTA?
+necessary, this decision is
+also documented.
+No Yes
+Documentandjustifythe
+decision(page71)
+
+===== PAGE 11 =====
+0088 0099
+EXPLORATION IN PRACTICE
+Step7
+Figure01 EQTA–QuickScanandroadmap
+
+===== PAGE 12 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+
+===== PAGE 13 =====
+1100 1111
+EQTA in a nutshell
+The complete EQTA roadmap consists of the EQTA Quick
+Scan, an exploratory part (step 1, 2 and 3) and a practical
+part (step 4, 5, 6 and 7)
+General note in advance:
+The steps address the same issues from different perspectives and
+interests. As a result, the outcomes of the steps are often related, and
+some overlap is inevitable. Try to avoid duplication and do justice to
+the different perspectives and interests.
+Some questions from the step-by-step plan may not be answered
+properly yet, for example because the idea about the application is
+still very global at a certain point in time. It is important to set up
+processes so that relevant developments can be addressed in a
+timely manner.
+
+===== PAGE 14 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+EQTA-Quickscan
+The Quick Scan aims to quickly create a picture of what quantum
+technology brings to organizations and what opportunities the
+technology offers. Depending on the findings, the EQTA ends after
+the Quick Scan.
+The Quick Scan consists of the following parts:
+• Exploration of quantum technology. A brief orientation to quantum
+technology and timelines.
+• Exploration of applications: what is in store for your organization?
+what will quantum technology mean for your organization if the
+technology is applied, or if you apply quantum technology
+yourself?
+• In a stakeholder analysis, explore who (broadly speaking) will be
+affected by these applications in and around your organization
+• Organize a dialogue between stakeholders, organizations, and
+experts. The aim of the dialogue is to get the most realistic picture
+possible of the impact of quantum technology, the opportunities
+for the organization and the preconditions for exploiting these
+opportunities responsibly.
+If the Quick Scan shows that the organization needs to act now
+or start actively monitoring developments, proceed to Step 1
+(Exploration).
+
+===== PAGE 15 =====
+1122 1133
+Exploration
+Step 1: Explore the societal framework
+• Perception: explore which groups need to contribute to the
+application and what they need to know about quantum
+technology.
+• Socio-technical ecosystem: explore the social and technical
+conditions for successful application of quantum technology.
+Consider: skills and knowledge, organizational processes and
+governance, and the significance of the application to the
+technology the organization uses.
+• Stakeholders: explore who the application will affect and how
+to engage these groups.
+• External dependencies: explore whether adjustments are needed
+to the rules and procedures governing the application domain,
+(professional) codes and best practices, or standards. Explore
+whether cooperation is needed with third parties (business (chain)
+partners, regulators, political/administrative) to realize this
+application. (See also step 3 - Legal and ethical frameworks)
+• International context: explore in what ways the application
+depends on international cooperation and geopolitical
+developments and how these international dependencies can
+be monitored and influenced.
+Step 2: Explore technological frameworks
+Explore the requirements for the application:
+• From a technical perspective, focusing on quality aspects such
+as security, reliability, and sustainability.
+• From the technical boundary conditions for security, trust, and
+data governance. For instance, participation in (and development
+of) data ecosystems, trusted and secure supply chains for
+technology and cloud, authentication, and authorization.
+• From the perspective of future-proofing investments, freedom of
+choice and flexibility of the organization to determine the pace
+and direction of innovation.
+
+===== PAGE 16 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Step 3: Explore legal and ethical frameworks
+Explore the legal frameworks that apply to the application:
+• International: fundamental rights and treaties.
+• Domestic, sectoral, or industry specific.
+• (government) Oversight in terms of financial, security,
+continuity, and accountability.
+• Intellectual property, technology-specific (think AI Act
+or restrictions on dissemination/use of technology).
+• Geopolitics: frameworks regarding (inter)national sovereignty,
+restrictions on collaboration with people and companies.
+Explore organizational ethical frameworks:
+• Map out how quantum technology can contribute to
+organizational values that are important to the organization.
+
+===== PAGE 17 =====
+1144 1155
+In practice
+Step 4: Stakeholder dialogue
+(also last step EQTA Quick Scan)
+Organize a dialogue between:
+• Experts who can create an understanding of the opportunities of
+quantum technology and have knowledge of the technical, social,
+ethical, and legal frameworks.
+• Administrators who are steering the organization.
+• Stakeholders who experience the impact and work with the
+technology.
+The purpose of the dialogue is to describe a tangible approach for the
+organization including their advantages and disadvantages, based
+on the perspectives from various groups.
+Step 5: Balancing subsidiarity, proportionality,
+and necessity
+Compare the approaches from Step 4 on subsidiarity (are there other
+options to achieve the goals?), proportionality (is the impact of the
+approach proportional to the goal?) and necessity (is the approach
+necessary to achieve a goal?).
+Step 6: Decision making, recording, and justification
+Document the choices made and accountability.
+Step 7: Feedback and periodic evaluation
+Design the processes to ensure that applications are realized and
+that they produce the intended outcomes. Actively manage the
+delivery of these outcomes.
+
+===== PAGE 18 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+
+===== PAGE 19 =====
+1166 1177
+Preface
+QQuantum technology is promising. It offers
+unprecedented new opportunities and innovation
+potential. At the same time, this area of technology
+is still developing considerably and not all
+applications have yet come to fruition.
+Organizations that are already interested in quantum technology
+often involve the pioneers in the organization: the technical experts
+and innovation managers who want to know what is coming their
+way, or who want to start further developing and using an actual
+application.
+It is precisely at this stage of exploring and investigating the
+potential of the technology in a particular application area, that
+expanding the exploration to the broader societal, ethical, legal,
+and technical context may be necessary to ensure that opportunities
+are seized, and negative impacts are avoided.2
+With the aim to provide practical guidance to quantum pioneers in
+organizations to help them shape the expansion and interpret within
+organizations how the ethical, legal, and societal aspects may affect
+the organization, we would like to present the Exploratory Quantum
+Technology Assessment (EQTA). It offers a concrete roadmap focused
+2 LessonsfromAI:stakeholderengagement–QuantumDeltaNederland(2022).https://
+quantumdelta.nl/TUQ/wp-content/uploads/2022/11/Lessons-from-AI_White-Paper-1_
+Stakeholder-Engagement-2.pdf
+
+===== PAGE 20 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+on actual applications, provides depth and background on the steps
+to take, and outlines examples and real-world scenarios. The EQTA
+helps organizations visualize the potential impact for their sector.
+Q
+“Quantum technology is promising but is still
+in its infancy when it comes to applicability.”
+The EQTA was commissioned by Quantum Delta Nederland (QDNL)
+and has taken shape in a working group that unites three worlds:
+the creators of the technology, innovation managers and quantum
+pioneers at companies and organizations that want to work with it
+or are affected by it, and lawyers and ethicists. EQTA brings together
+these very different perspectives in an accessible language.
+The working group assumed the following principles to achieve
+integration: constructive, participatory, bottom-up and practical.
+You will find reference to the various points of contact at QDNL and
+the Center for Quantum & Society. In this initiative, all stakeholders
+are working together in co-creation.
+We wish you much inspiration, insight, and success in taking
+the next step!
+Freeke Heijman (board member QDNL)
+Bart Schermer (chairman working group EQTA)
+Daniël Frijters (co-chair working group EQTA)
+The members of the EQTA working group
+
+===== PAGE 21 =====
+1188 1199
+Freeke Heijman
+Co-founder Quantum Delta NL, director ecosystem
+development, she commissioned the creation
+of the EQTA.
+“Because Quantum Technology is still in the
+phase of research and development, it is difficult to
+imagine how it will affect society in the near future. For
+many people, companies, and organizations it is still a
+long way off. Nevertheless, it is important to prepare
+today for the societal implications so that we can
+make the most of the opportunities and mitigate the
+risks. This requires an active approach to work with
+end users and civil society organizations to identify
+the ethical, legal, and societal implications of possible
+quantum applications. To this end, the QDNL Center
+for Quantum & Society's Exploratory Quantum
+Technology Assessment provides a concrete roadmap.”
+Bart Schermer
+Chairman Guidance Group EQTA, Professor
+of Privacy & Cybercrime, Leiden University
+and Partner Considerati.
+"Quantum technology has a potentially large
+impact on society. By looking at the ethical, legal,
+and societal impacts early in the development
+of this technology, we have the best chance of
+applying it in the future in a responsible manner"
+Daniël Frijters
+Co-chair guidance group EQTA, MT member
+ECP | Platform for the Information Society.
+“From the Centre for Quantum and Society at
+Quantum Delta Netherlands, I am involved in
+developing insights and tools around responsible
+innovation. Quantum technology is promising
+but is still in its infancy when it comes to
+applicability. For balanced integration in society,
+it is crucial to start the dialogue today about
+important themes as well as to offer practical
+tools for organizations to guide innovation.”
+
+===== PAGE 22 =====
+ExploratoryQuantumTechnologyAssessment
+The members of the EQTA working group
+Camille de Valk
+Quantum algorithm developer at Capgemini.
+“At the Capgemini Quantum Lab, I experiment
+with partners to bring applications of
+quantum technology one step closer. I believe
+we need to look for business processes where
+now (due to insufficient computing power)
+many simplifications are made, for example
+in finance or pharma. Quantum technology
+brings a new reality where we can calculate
+the things we would not even dare dream
+of today.”
+Q
+“Quantum technology offers many opportunities but
+can also have undesirable effects if organizations
+are not prepared in time.”
+Frank Phillipson
+Senior scientist at TNO and professor of
+Computational Operations Research at
+Maastricht University. Frank specializes in
+optimizing telecommunications, energy, and
+logistics networks. His research focuses
+on new techniques for optimization and
+Machine Learning with quantum computing.
+“TNO is committed to technological
+developments for societal and economic
+challenges. Compliance with legislation –
+such as privacy - and ethics is crucial.”
+
+===== PAGE 23 =====
+20 21
+Eelco Vriezekolk, Lizzy Polman
+National Inspectorate for Digital Infrastructure.
+“The National Inspectorate for Digital
+Infrastructure (formerly Radiocommunications
+Agency) started to investigate quantum
+technology in 2021 and the impact on society
+of the diverse applications currently under
+development, albeit in different timelines.
+Quantum technology offers many opportunities
+but can also have undesirable effects if
+organizations are not prepared in time. The
+Exploratory Quantum Technology Assessment
+helps to accelerate awareness within
+organizations and provides a step-by-step
+guide to discuss the societal and organizational
+context in which the quantum application will
+take its place. This is how the Netherlands will
+remain securely connected.”
+Jelle Attema
+Advisor ECP | Platform for the Information
+Society. Secretary EQTA guidance group.
+“The development of the EQTA has been
+an exciting journey. I hope the EQTA is
+going to help organizations recreate
+what I believe the working group
+succeeded in doing: bringing various
+areas of expertise and perspectives into
+fruitful and creative conversation with
+the goal of being able to responsibly
+capture the wonderful opportunities
+of quantum technology.”
+
+===== PAGE 24 =====
+ExploratoryQuantumTechnologyAssessment
+Germain van der Velden, Loulou Hanna,
+Sterre Romkema
+Ministry of Infrastructure and Water Management.
+“The Ministry of Infrastructure and Water
+Management (IenW) works towards a livable,
+accessible and safe Netherlands. By having early
+insight into the opportunities and threats of new
+technologies such as quantum technology, IenW
+can properly anticipate these technologies. For
+quantum technology, it means that for now we
+focus on limiting the future threats posed by
+quantum technology. By doing so, we will
+continue to keep the Netherlands livable,
+accessible, and safe in the future.”
+Eline de Jong
+PhD candidate Philosophy and Ethics
+of Quantum-Safe Cryptography and
+co-author of the WRR report 'Mission AI.
+The new system technology'.
+“In the report 'Mission AI', the WRR shows the
+ways in which a system technology like AI is
+embedded in society. These insights are
+also relevant to our ambitions with
+quantum technology. With an exploration of
+the social context, the EQTA broadens our
+view of the factors that contribute to the
+successful application of this new
+technology in practice.”
+
+===== PAGE 25 =====
+22 23
+ing. Oscar Covers RE MSc
+Cyber Security Analyst at the Dutch Banking
+Association (NVB).
+“I am a Cyber Security Analyst and quantum
+enthusiast. In my role, I analyze ICT-related
+security risks for the financial sector and —where
+necessary— coordinate the response.”
+Jacqueline Schardijn
+Senior Business Developer, InnovationQuarter
+Zuid-Holland.
+“We must take action to develop and apply
+quantum technology in our province so that
+industry and residents can benefit from it.
+This is also how we can take a leading role,
+both nationally and in Europe.”
+Harry van Geijn
+Digital Advisor at Microsoft Netherlands.
+“As Digital Advisor, I have been supporting
+Microsoft's major customers on the business and
+ethical aspects of technology for over ten years.
+The focus is on the innovative application of IT,
+the organizational design of the information
+function and the impact of technology in terms
+of ethics and sustainability. In addition, as a
+(self-proclaimed) nerd, I read books on nuclear
+physics as a child. So, getting interested in
+quantum technology at an early stage was
+inevitable. Being allowed to contribute to the
+EQTA has therefore been a nice outcome.”
+
+===== PAGE 26 =====
+ExploratoryQuantumTechnologyAssessment
+Pieter Vermaas
+Researcher in philosophy of technology, TU Delft
+“I work as a philosopher of technology at TU
+Delft on the ethical and societal impact of
+quantum technology and lead ethical research
+for the Centre for Quantum and Society at
+Quantum Delta Netherlands. The major
+challenges I take up are being able to assess
+the future applications of quantum technology
+realistically and giving stakeholders the ability
+to understand and assess those applications.”
+Marianne Schoenmakers
+Senior Consultant Responsible Tech at
+Considerati, co-author of the EQTA.
+“Together with the Responsible Tech team at
+Considerati, I advise companies and
+organizations on social and ethical aspects of
+the deployment of (new) technology and data.
+Quantum technology, compared to AI for
+example, is still at an early stage of development.
+That offers the unique opportunity to include
+social and ethical aspects in the design phase of
+applications. I see it as a kind of ethics by design.”
+Remco Helwerda
+Visionary Advisor, KPN.
+“KPN's mission statement is: 'We are committed
+to connecting everyone in the Netherlands to a
+sustainable future.' That is why it is important
+that we watch technological developments
+that can contribute to that sustainable future,
+such as quantum technology. The EQTA has
+become a great tool for that.”
+
+===== PAGE 27 =====
+24 25
+Mark Wiertsema
+Digital Advisor Microsoft Netherlands.
+“Together with Harry van Geijn, I am one of the
+founders of the Quantum Team at Microsoft
+Netherlands. Personally, I am fascinated by
+the promise and dynamics of the technology.
+Its extraordinary properties allow us to do
+extraordinary things with it. As Microsoft works
+to make quantum (computing) technology
+available, we feel responsibility to do so in a safe
+and responsible way. The NL Quantum Team has
+therefore set itself the goal of helping society,
+organizations and individuals to be ready for the
+adoption of this new technology. Participating in
+the EQTA is a wonderful way to do this and I hope
+that the project will contribute to securely
+fulfilling the promises of quantum.”
+Mauritz Kop
+TTLF Fellow and Visiting "Quantum & Law" Scholar at
+Stanford Law School, Stanford University, USA, and
+Director of AIRecht.nl, Netherlands.
+“It was inspiring to work in a multidisciplinary setting
+on the world's first assessment tool for quantum
+technology. From a quantum ELSPI (ethical, legal,
+societal, political) perspective, I co-wrote the societal,
+legal, and ethical frameworks of the EQTA, with a
+focus on intellectual property, regulation and social
+embedding. Instituting a risk-based legal-ethical
+framework combined with standardization,
+certification, and technology impact assessment over
+the life cycle of quantum-driven systems such as
+computers, sensors and communication networks is
+crucial to ensure responsible quantum innovation.
+Thanks to ECP and QDNL for bringing together
+all the collaborating parties!”
+
+===== PAGE 28 =====
+ExploratoryQuantumTechnologyAssessment
+Table of contents
+Goal Exploratory Quantum Technology Assessment (EQTA) 03
+EQTA in a nutshell 11
+Preface 17
+01
+The relationship between EQTA, Quantum Delta
+Nederland and other assessments 29
+How does the EQTA relate to other assessments? 30
+EQTA and Quantum Delta Nederland 30
+Summary of QDNL’s activities 31
+02
+The EQTA roadmap 35
+Quickscan 35
+Exploration 36
+In Practice 69
+03
+Quantum technology examples 75
+Quantum sensing and water quality 76
+Pilot secure communication network Port of Rotterdam 78
+Preparing quantum-secure encryption in the government and
+financial sector 79
+Exploring quantum technology in the financial sector 81
+Quantum technology in the telecom sector 83
+
+===== PAGE 29 =====
+26 27
+Appendix 01
+Quantum technology in brief 89
+Technology Readiness Levels (TRL’s) 90
+What is quantum technology? 90
+What can quantum technology do? 93
+Annex 02
+Roadmap template 101
+
+===== PAGE 30 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+01
+
+===== PAGE 31 =====
+2288 2299
+01
+The relationship between
+EQTA, Quantum Delta
+Nederland and other
+assessments
+This chapter considers how the EQTA relates to other
+assessments that many organizations may be familiar
+with, for instance, the Data Protection Impact
+Assessment (DPIA).
+The EQTA and Quantum Delta Netherlands (QDNL) are also related.
+After all, the EQTA is limited in scope and, when going through it,
+readers will undoubtedly have questions. The section on Quantum
+Delta Netherlands addresses the various ways QDNL can help
+readers answer their questions.
+
+===== PAGE 32 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+How does the EQTA relate to other
+assessments?
+Many tools and methods exist to assess the negative impacts of new
+technologies and services. Consider, for example, the Data Protection
+Impact Assessment (DPIA) or the Human Rights and Algorithms
+Impact Assessment (IAMA).
+The EQTA is not a substitute for other assessments, such as the DPIA
+or IAMA, that may be conducted in addition to or complementary to
+this tool. For example, when quantum technology is used to develop
+better Machine Learning models, it makes sense to use the IAMA in
+addition to this tool, which specifically looks at the negative effects
+of algorithms.
+Essentially, the most important added value of this tool lies in
+providing an early and structured approach to the consideration
+of the impact of quantum technologies
+EQTA and Quantum Delta Nederland
+The EQTA was written on behalf of Quantum Delta Netherlands
+(QDNL) and specifically commissioned by the Centre for Quantum
+and Society (CQS). The center is dedicated to ELSA tooling & research
+(ELSA is an abbreviation of Ethical, Legal and Societal Aspects),
+awareness creation and the societal issues to which quantum
+technology can contribute.
+Going through the EQTA will often raise questions from organizations
+about many aspects of quantum that the EQTA does not address.
+The CQS is the first port of call to ask these questions and ask for help.
+
+===== PAGE 33 =====
+3300 3311
+Summary of QDNL’s activities
+CQS is part of Quantum Delta Netherlands (QDNL). QDNL
+coordinates efforts around quantum technology in the Dutch
+ecosystem. The following issues are being addressed:
+Quantum Awareness (on a societal level)
+Quantum.Amsterdam (https://www.quantum.amsterdam/, or
+specifically: https://www.quantum.amsterdam/education/
+workshops-and-training/) offers awareness training from the
+Quantum.Amsterdam hub as a networking organization to
+understand the technical, economic and societal impact of
+quantum technology, with a focus on computing.
+Quantum for Business (https://www.quantumforbusiness.eu/) is
+a field lab within the QDNL program and targets the European
+market of companies and organizations and aims to facilitate
+access to knowledge about quantum technology and the parties
+to collaborate with.
+Co-creation sites
+Centre for Quantum & Society (https://quantumdelta.nl/cqs/) is
+the central co-creation activity from the QDNL Quantum & Society
+program. A virtual and physical place where parties from society,
+industry, government, and science come together to work on the
+application of quantum technology for the benefit of society.
+
+===== PAGE 34 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+House of Quantum (https://www.houseofquantum.com). This is to
+become an organization of national physical spaces within the QDNL
+ecosystem where members can work, learn, and come together.
+De DELTA Hub (https://quantumdelta.nl/our-hubs/). The QDNL
+program has 5 hubs (Delta, Eindhoven, Leiden, Twente, and
+Amsterdam) where all kinds of co-creation activities take place.
+Application development and societal
+impact
+Het Quantum Applicatie Lab (https://quantumapplicationlab.com/).
+A field lab within the QDNL program, where various parties and
+quantum tech providers are working to develop useful quantum
+computing applications for end users. This may involve societal
+issues, working in collaboration with the CQS.
+
+===== PAGE 35 =====
+3322 3333
+
+===== PAGE 36 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+02
+
+===== PAGE 37 =====
+3344 3355
+02
+The EQTA roadmap
+Quickscan
+The Quick Scan is described in the section ‘EQTA in nutshell’ (page 11).
+The Quick Scan develops an initial picture of what quantum technology
+will mean for an organization, the opportunities that quantum
+technology offers an organization, and the possible negative effects.
+The Quick Scan then broadly explores what is needed to achieve
+responsible application and manage negative impacts, by weighing
+the various interests (of the organization itself and of other
+stakeholders) and identifying the technical, social, legal, and
+ethical boundary conditions.
+If the Quick Scan shows that an in-depth analysis is required, the
+step-by-step plan described in this chapter is implemented.
+
+===== PAGE 38 =====
+ExploratoryQuantumTechnologyAssessment
+Exploration
+Step 1: Social framework
+The deployment of quantum technology always takes place within a
+larger setting: society. A quantum application must not only function
+technologically, but it must also above all function in society. Here we
+are dealing with issues that are not (entirely) within the sphere of
+influence of individual organizations. Consider legislation, infrastructure,
+and public opinion. So, if we want to explore what it will take to make
+quantum technology work, it is important to be aware of those
+factors as well. In the first step of the EQTA, we therefore consider
+the social context of quantum applications.
+By analyzing the social context, we expand our view of the role of
+individual organizations. We show which broader processes affect the
+application of quantum technology. In addition to choices about their
+own application, organizations can also help shape those processes.
+Furthermore, we show that individual organizations are not the only
+players determining how quantum technology finds its way into
+practice. Organizations are partly dependent on other actors in
+this regard.
+System technology
+To gain insight into the social context in which organizations engage
+with quantum technology, we draw upon the Scientific Council for
+Government Policy (WRR) report on the task of Artificial Intelligence
+(AI).3 In this report, the WRR analyzes the embedding of Artificial
+Intelligence (AI) in society.
+AI, like quantum technology, can be regarded as, what the WRR calls
+in the study a system technology:4 a technology that enables a great
+deal of innovation, in all kinds of fields, and therefore has a ‘systemic’
+3 https://www.wrr.nl/publicaties/rapporten/2021/11/11/opgave-ai-de-nieuwe-systeemtechnologie.
+Englishsummary:https://english.wrr.nl/publications/reports/2021/11/11/summary-mission-ai
+
+===== PAGE 39 =====
+36 37
+impact on society. Examples are electricity, the internal combustion
+engine, and the Internet. Based on our experiences with previous
+system technologies, the WRR draws several lessons on how to
+approach new system technologies, such as AI. We can also learn
+from the past in the case of quantum technology.
+Incidentally,some workinggroupmembershave issueswith categorizing
+AI and quantum technology as systems technology. The risk of the
+label ‘systems technology’ is that there seems to be a discontinuity:
+the notion that attention to the impact of a technology and the need
+to analyze it is only needed now. Whereas those impacts often occur
+even when previous technology was applied. Emphasizing the
+discontinuity can lead to technology-specific regulations that will
+regulate problems with new technology but will not regulate the same
+problems with existing technology. The attention the EQTA advocates
+for social and ethical aspects of quantum technology is therefore a
+plea for a critical analysis of existing applications of information
+technology as well.
+If we want to embed a new systems technology in society in a
+responsible and successful way, the WRR points out that five things
+are important:
+• Countering unrealistic perceptions (demystification).
+• Creating a favorable socio-technical ecosystem contextualization).
+• Involving stakeholders (engagement).
+• Establishing regulatory and guiding frameworks (regulation).
+• Monitoring international relations (positioning).
+4 TheWRRfocusesonso-called‘systemtechnologies’:technologieswithabroadandprofound
+—inshort,systemic—impactonsociety.Examplesofsuchsystemtechnologiesareelectricity,
+theinternalcombustionengine,andthecomputer.Fromourexperienceswithprevioussystem
+technologies,theWRRdrawsseverallessonsforourdealingswithnewsystemtechnologies,
+suchasartificialintelligence(AI).Wecanalsolearnfromthepastinthecaseofquantum
+technology.
+
+===== PAGE 40 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Social context
+International
+Perception
+context
+QUANTUM
+APPLICATIONS
+Socio-technical
+Regulation
+ecosystem
+Stakeholders
+Figure01 Fiveaspectsofthesocialcontextofquantumapplications
+We can see these social tasks as five aspects of the social context of
+quantum applications (see Figure 01). It is important for organizations
+that want to put quantum technology into practice have insight into
+this context, because the success of an application is partly
+determined by it.
+Using the following questions, they can identify the social context:
+• What are the perceptions surrounding quantum technology?
+• What are the social and technical conditions for success?
+• Who is impacted by the application?
+• What are the applicable frameworks?
+• What is the international context?
+On the next pages we explain these questions in more detail and look
+at how organizations can work with them themselves to shape the
+social context for each task.
+
+===== PAGE 41 =====
+3388 3399
+What are the perceptions surrounding quantum technology?
+Demystification is about the perception surrounding a technology.
+Oftentimes, many ideas develop about how a new system technology
+works and what that technology is capable of. However, these ideas
+do not always match reality. This may cause problems in the
+application of the technology in practice. ‘Excessive expectations
+lead to disillusionment and ill-considered applications, while
+exaggerated fears lead to aversion to the technology and failure
+to take advantage of the opportunities it offers’, write the compilers
+of the WRR report.
+Thus, if we want people to be open to a new technology and able to
+think about the opportunities and negative effects of applications,
+it is necessary to demystify the technology. Which means getting rid
+of the myths surrounding it and favoring a realistic view of what the
+technology can and cannot do.
+Complex and promising
+The combination of complexity and great promise makes quantum
+technology susceptible to mythmaking. One example of quantum
+technology that easily becomes the subject of mythmaking is the
+quantum computer. The idea exists at times that a quantum
+computer would be superior to a classical computer in all aspects.
+This is unfair: quantum computers promise an advantage for a
+certain type of problems. In addition, quantum technology is still
+unknown to many people and to some extent will remain
+incomprehensible for a very long time - even for experts. This may
+translate into a lack of interest and a failure to debate the
+opportunities and negative effects in society. At the same time, not
+everyone needs to know exactly how quantum technology works.
+What matters is that its application is not hindered by unrealistic
+perceptions and that people are able to participate when thinking
+about its applications.
+
+===== PAGE 42 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+For organizations that want to apply quantum technology
+themselves, it is therefore useful to first examine what perceptions
+exist and how these may affect the intended application. It is also
+important to be alert to one's own (unintentional) contribution to
+perception, for example by using certain words. Next, it is important
+to think about the question of who needs to know what: which groups
+of people should be able to think about the intended application
+and thus have sufficient knowledge? Depending on the answer,
+organizations can work internally on the required knowledge, or more
+broadly within society along with other actors on comprehension.
+?
+Question 1
+Perception
+What is the perception surrounding quantum technology?
+Auxiliary Questions:
+• What ideas exist inside and outside the organization
+about quantum technology and how might that affect
+the intended application?
+• Which groups or individuals should be able to participate
+in the application? What do they need to know?
+What are the social and technical conditions for success?
+Contextualization focuses on creating a favorable socio-technical
+ecosystem. That is, an environment in which both social and technical
+factors promote the functioning of any technology. For example, it is
+necessary that the people who will work with the technology are well-
+equipped to do so and that the processes within an organization
+match the new application (the social conditions).
+
+===== PAGE 43 =====
+4400 4411
+In addition, the presence of supporting technologies and a good
+infrastructure is crucial (the technical conditions). The WRR therefore
+emphasizes that if we want a technology to really work in practice,
+we must not only look at the performance of the technology itself,
+but also at the environmental factors that support the performance.
+As an example, the WRR uses the self-driving car: it only functions
+properly in practice if the occupants in the car and the cars of fellow
+road users can also use it properly and if the environment becomes
+more 'readable' for the car through smart signage.
+Conditions socio-technical ecosystem
+These types of social and technical factors are also crucial when
+discussing the social context of quantum technology. For quantum
+technology to work in practice, supportive hardware and software are
+needed. For example, quantum computers involve the availability of
+quantum chips, appropriate programming languages and the
+development of quantum algorithms for solving certain problems.
+Experts5 expect quantum computing power and simulators of
+quantum computers to become available primarily as a cloud service.
+For example, Quantum-Inspire from Qu-Tech Delft offers quantum
+computers as-a-service (see https://www.quantum-inspire.com/).
+In that case, success in practice will depend in part on access to
+those cloud services. Creating such conditions is by no means always
+within the reach of individual organizations, but they can call others
+to account or offer support.
+When applying quantum technology, it is therefore important to
+examine what the social and technical conditions are for success in
+practice. In doing so, organizations should first ask themselves what
+the quantum application requires of the social environment: What
+must the people who work with it be able to do? Are adjustments
+needed in the way of working within the organization?
+5 Hoofnagle,C.,&Garfinkel,S.(2022).Lawandpolicyforthequantumage.
+CambridgeUniversityPress.
+
+===== PAGE 44 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+In addition, the technical environment must be checked: What kind
+of technical ecosystem does the application assume? How can
+adjustments to the environment improve the functioning of the
+application?
+?
+Question 2
+Socio-technical ecosystem
+What are the socio-technical conditions for success?
+Auxiliary questions:
+• What must the people working with the technology be
+able to do (skills) and are adjustments needed in the
+way they work within the organization?
+• What kind of technical ecosystem does the application
+presume and how can adaptations to the environment
+improve its functioning?
+Who will be impacted by the application?
+Engagement is about involving stakeholders during the development
+of a technology and in implementing and gathering feedback on that
+technology. For a technology to be responsibly and sustainably
+embedded in society, the WRR argues, it is crucial to ‘democratize’ the
+technology, as it were. This means giving different groups a voice in
+the design and evaluation of a technology. As it often happens,
+technology development is dominated by technical considerations
+and developer interests.
+
+===== PAGE 45 =====
+4422 4433
+Involving stakeholders in the development, implementation and
+evaluation of a technology not only allows better anticipation of
+possible (undesirable) effects, but also increases public support.6
+Different perspectives
+Stakeholders are part of the social context of quantum technology.
+The specialist nature of the technology and the associated high costs
+carry the risk that the development of quantum technology will
+belong to a small group of specialists.
+If we want to make full use of the potential of quantum technology
+and prevent undesirable effects as much as possible, it is important
+that different groups can contribute ideas about the opportunities
+and negative effects of quantum technology. This can be done, for
+example, by gathering different perspectives and interests during the
+development, implementation, and evaluation of a quantum
+application.7
+For organizations that want to imagine the social context in which a
+quantum application will emerge, it is therefore important to consider
+which groups will be affected. In what way will they be ‘impacted’ by
+the intended application? And how can those groups be involved —in
+advance and structurally— so that there is insight into the impacts of
+a quantum application?
+6 Seeforadetailedsourceonproactivelyanticipatingthesocialaspectofquantum:
+E.DeJong,OwntheUnknown:AnAnticipatoryApproachtoPrepareSocietyforthe
+QuantumAge,DigitalSociety,Quantum-ELSPITC,1,https://link.springer.com/article/10.
+1007/s44206-022-00020-4
+7 Makingthetechnologyandformsof...accessibleisanimportantpartofQuantumDelta
+Netherlands'mission.Formoreinformation:seepage30:EQTAandQuantumDelta
+Netherlands.
+
+===== PAGE 46 =====
+ExploratoryQuantumTechnologyAssessment
+?
+Question 3
+Stakeholders
+Who will be impacted by the application?
+Auxiliary questions:
+• Who will be ‘impacted’ by the intended application,
+and how?
+• How can these groups be involved in development,
+implementation, and evaluation?
+What regulatory frameworks apply?
+Regulation refers to all the regulatory and guiding frameworks that
+define the space within which a technology can be developed and
+applied. New technologies do not usually emerge in a vacuum. A
+variety of frameworks often already exist and can be applied (after
+modification). Sometimes, however, a technology creates
+unprecedented circumstances and new rules are called for. At that
+point, we often do not know exactly what kind of rules are needed
+because we have little experience with the technology. In that case,
+according to the WRR, flexible instruments such as standards and
+norms offer a solution. Regulation is thus a balancing act between
+creating space and establishing rules that frame, and direct, the
+development and application of a technology.
+Rules of the game
+Regulatory frameworks form the fourth aspect of the social context
+that governs the application of quantum technology.
+
+===== PAGE 47 =====
+44 45
+How quantum technology relates to existing legal frameworks is
+discussed in Step 3: Legal and ethical framework, like those
+governing intellectual property.8 In addition, work is underway to
+develop standards, such as those for post-quantum cryptography
+and cybersecurity. Both present and newly developing frameworks
+are part of the societal context. After all, how quantum technology
+can be applied in practice depends partly on the prevailing rules of
+the game.
+It is therefore important to consider how an intended application
+relates to existing frameworks. What regulations apply? The answer
+to that question may also be that adequate regulations are currently
+lacking, which could jeopardize issues such as legal certainty, and
+lead to abuses. Some of the frameworks that organizations
+encounter when applying technology are professional: lawyers,
+accountants, doctors, civil servants, or notaries are sometimes
+required to take on certain responsibilities that may conflict with the
+application of technology, or which could be performed much better
+with the help of technology.9
+New agreements and sometimes new institutions are needed to make
+some applications possible. Take, for example, setting up systems
+with new roles, such as that of a system authority aimed at enabling
+organizations to exchange sensitive data easily and reliably within
+applicable frameworks. Developing the agreements and setting up
+such systems requires close cooperation between organizations,
+regulators, and professional organizations such as auditors.
+Depending on the type of frameworks needed, organizations can
+develop those frameworks themselves or put this on the agenda of
+other professional groups involved in this process.
+8 Seefortointellectualproperty:Aboy,M.,Minssen,T.&Kop,M.MappingthePatentLandscape
+ofQuantumTechnologies:PatentingTrends,InnovationandPolicyImplications.IIC53,853–
+882(2022).https://doi.org/10.1007/s40319-022-01209-3:
+9 Considersuchnow-forgottenanachronismsastherequirementofa‘wet’signatureonacon-
+tract,ortherequirementofphysicalpresenceofapersontoestablishidentity(preferablywith
+a‘photocopyofone'spassport’asproof),whilethepersonpossessesareliabledigitalproofof
+identitywithwhichtoproveone'sidentity.
+
+===== PAGE 48 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+An important theme that recurs in Step 2 is standardization: in order
+to be able to switch to other vendors or service providers in the
+future—without high costs such as reinvestment—it is important that
+organizations using technology develop high-quality standards in a
+timely manner together with the providers, which can anticipate
+future developments and have broad support.
+?
+Question 4
+Regulatory
+What frameworks apply? (See also step 3)
+Auxiliary questions:
+• What regulations apply to the intended application?
+• Are there gaps that call for new or modified
+frameworks?
+What is the international context?
+Positioning is about relationships on the international stage. The WRR
+shows that the development of a new systems technology is often
+framed as an international race. However, that frame is simplistic and
+misleading because it implies that there is one winner. In reality, the
+WRR argues, one person's gain is not necessarily another person’s
+loss. However, it is important to think strategically about one's own
+international position in relation to other actors, especially when it
+comes to competitiveness and security issues regarding a technology.
+
+===== PAGE 49 =====
+4466 4477
+Although perception, the socio-technical ecosystem, stakeholders,
+and regulations all have an international dimension, the international
+context is also an aspect that stands alone and deserves attention.
+Due to its specialized nature, the research community of quantum
+technology is highly intertwined internationally: experts from all kinds
+of countries join forces to achieve breakthroughs. Moreover, the
+development of quantum technology is very costly, which is why only
+a small number of players currently play a dominant role in the field
+worldwide. For these reasons alone, the application of quantum
+technology almost always has an international component.
+The international playing field: sovereignty
+For the analysis of the social context, it is therefore not only
+important to have an eye for the international dimension of
+the aspects discussed earlier, but also to explicitly consider the
+international playing field in which an organization operates.
+That dimension is increasingly dominated by sovereignty: the
+geopolitical (technological) self-determination of (groups of)
+countries, such as the Netherlands, the EU, et cetera. From that
+desire for self-determination may follow export and import
+restrictions, geopolitical restrictions on working with people and
+organizations from some countries outside Europe, and restrictions
+on foreign interests in company ownership.
+The focus and desire for sovereignty is sometimes at odds with
+the international interconnectedness of the research community.
+Questions that arise in this context are: what players are involved
+in the intended application and what dependencies may arise?
+Do foreign actors have access to the application, what are possible
+implications?
+
+===== PAGE 50 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+?
+Question 5
+International context
+What is the international context?
+Auxiliary questions:
+• What international actors are involved in the intended
+application? What dependencies may arise?
+• Do foreign actors have access to the application? What
+are possible implications?
+Step 2: Technological framework
+To identify the impact of a technology application on people and
+society, it is important to describe the more generic requirements of
+the technology. Quantum technology is becoming part of applications
+where data play a central role. This means that there are generic
+requirements for the functionality, reliability, and quality of the
+technology. There are requirements for interoperability with other
+technology, for how the technology handles data (identity,
+authentication and authorization, and control over data), and for
+how the values surrounding that handling of data are interpreted
+(e.g., preventing monopoly control over data).
+
+===== PAGE 51 =====
+4488 4499
+?
+Question 6
+Quality requirements
+What are the quality requirements for the technology
+to achieve the goals and benefits described?
+Think about functionality requirements: What can the technology do?
+What functions does the technology offer? But also, other requirements
+such as robustness against errors, the ability to analyze and repair
+errors, securing systems, flexibility requirements and requirements for
+manageabilityandthepossibilitiesforintegrationwithothertechnology.
+Sustainability (such as origin and reuse of raw materials and energy
+consumption) also plays a role. Check iso 25010 for inspiration to
+establish a complete list of requirements.10 These quality issues are
+usually addressed by requiring certifications from the vendor
+?
+Question 7
+technical requirements
+What technical requirements should be imposed in relation
+to privacy, security, data, identity, authentication, and
+authorization?
+10 TheseareexamplesofrequirementstakenfromISO25010,acommonframeworkfor
+identifyinganddescribingthe(requirementsfor)qualityofsoftwareandsystems.
+Formoreinformation:https://nl.wikipedia.org/wiki/ISO_25010
+
+===== PAGE 52 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Q
+“Quantum technology is becoming part of
+applications where data play a central role.
+This means that there are generic requirements
+for the functionality, reliability, and quality
+of the technology.”
+When addressing these issues, the following questions arise:
+• What (technical) principles should be applied to protect privacy
+and provide data subjects with appropriate opportunities for
+consent and control?
+• What authentication and authorization mechanisms are needed
+to give the many data subjects control over the collection and
+use of data?
+• How will the reliability and security of data be ensured?
+• After all, the powerful computing power of quantum computing will
+require a lot of data, with parties having to make data available to
+each other. Choices will have to be made about which data fall into
+the cooperative purview and which into the competitive one, and
+which data will be confidential, and which will be open. Joining or
+developing management organizations that play a role in ensuring
+the security, privacy and quality of data may be necessary.
+• How can the risks of increasing interconnectedness and
+dependence on third parties in the application of quantum
+technology be managed?
+
+===== PAGE 53 =====
+5500 5511
+Note: important parts of these generic requirements for technology
+and how technology handles data, security and privacy will be
+regulated by European legislation in the coming years. As such, there
+is a strong relationship to Step 3: the legal frameworks. Consider
+the Cybersecurity Act, the Data Governance Act, the AI Act, and the
+General Data Protection Regulation. Implementing these laws often
+requires collaboration and fundamental technical choices.
+Examples of technical prerequisites for
+privacy, security, and reliability
+Data
+Data is needed to exploit the opportunities of quantum technology.
+In Europe, work is underway on generic principles and architectures
+aimed at collaborating on data such as: IDS (International
+Dataspaces)11, Cathena-X12 and Gaia-X13. The Netherlands hosts two
+successful examples of these efforts: SCSN (the Smart Connected
+Supply Network) which facilitates (confidential) information exchange
+in the large global ecosystem around Brainport, Eindhoven,14 and
+Ishare15 which for many years facilitates intensive data exchange in
+the logistics sector.
+The Ministry of Infrastructure and Water Management is working
+with parties on an ecosystem around mobility data16 based on
+these principles. Similar initiatives exist in the fields of agriculture,
+healthcare, and energy.
+11 https://internationaldataspaces.org/
+12 https://catena-x.net/en/
+13 https://gaia-x.eu/
+14 https://smart-connected.nl/nl
+15 https://ishare.eu/nl/
+16 https://www.rijksoverheid.nl/onderwerpen/mobiliteit-nu-en-in-de-toekomst/
+mobility-as-a-service-maas
+
+===== PAGE 54 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Identity
+Other areas surrounding the application of quantum technology, such
+as identity solutions that allow the responsible handling of personal
+data, are in the pipeline. Think of the upcoming European e-wallet
+and the principles of Self Sovereign Identity.17
+Information security and continuity
+Quantum technology is often acquired as a service. These services
+will run on software that is constantly being developed and improved,
+by numerous parties. Also, data will be collected and shared by many
+parties. The result is increasing technical interconnectedness and
+interdependence of different parties. This requires targeted action to
+manage risks around information security and continuity. The
+financial sector is (understandably) leading the way here, with parties
+systematically exchanging information about risks, measures, and
+their effectiveness based on the International Standards for
+Assurance Engagements (ISAE). In the Netherlands, parties work
+together in the Online Trust Coalition with the aim of applying these
+principles to manage risks around information security and continuity
+in complex networks.18
+Interoperability of data
+Finally, on the subtopic of data interoperability, work is being done on
+the FAIR (Findable, Accessible, Interoperable, Reusable) principles.
+The ability to automatically understand and combine data from so
+many different sources, as well as effective possibilities for control,
+requires standardization of data interoperability.
+17 https://magazines.rvig.nl/idee/2019/10/ssi
+18 https://onlinetrustcoalitie.nl/en/
+
+===== PAGE 55 =====
+5522 5533
+?
+Question 8
+Future proof investments
+Which preconditions should be set on quantum technology
+to ensure future proof investments and freedom of choice
+for organizations in future?
+Future-proofing investments and freedom of choice for the
+organization in future?
+With new technology, there is always a phase when some parties
+dominate the market because they are the first to bring an
+application to market. An important question an organization
+must consider at this point: When do you jump in? An important
+consideration may be the future-proofing of investments and the
+likelihood of vendor lock-in and thus the freedom that the
+organization can continue to make its own technical choices in
+the future. After all, many new technologies employ ‘proprietary’
+standards, owned by a specific technology developer, which makes
+it difficult to move to or integrate technology from other vendors.
+Technology users should therefore seek cooperation with other
+users and vendors at an early stage to achieve open standards for
+quantum applications. NEN, Royal Netherlands Standardization
+Institute,19 is involved in many of these international standardization
+processes. NEN can take the initiative for new processes (under
+certain conditions) and can play a role in establishing contacts
+with standardization committees.
+Technology suppliers often cooperate in standardization to ensure
+that the standard allows for future developments and fits their
+strategic approach. Also, the very existence of standards gives
+confidence to customers that a solution is mature. Confidence leads
+19 https://www.nen.nl/en/
+
+===== PAGE 56 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+to demand and is therefore good for technology development. In
+addition, the existence of standards gives innovators the opportunity
+to quickly enter an existing market.
+Step 3: Legal and ethical framework
+Legal framework
+For the deployment of quantum technology, the legal frameworks
+within which an application operates must also be considered. Legal
+and ethical frameworks go hand in hand.20 Legislation is sometimes
+‘solidified ethics’, when norms, values and ethical principles are
+transformed into laws and (behavioral) rules. The legal framework
+then provides a context for making ethical considerations.
+However, ethical considerations can also exist in their own right,
+regardless of whether legal frameworks will ever emerge. For
+instance, choices around sustainability or employee benefits. An
+organization can choose to commit to specific ethical goals, even
+if they have no legal basis, and be held accountable for them. Many
+organizations take the SDG (Sustainable Development Goals) as a
+guide for their ethical choices and account for plans and progress
+in this area in their annual report.
+Making ethical trade-offs is also necessary when legislation is
+inadequate. With new technologies, legislation either lags behind,
+or existing legislation needs to be re-examined.
+20 Seeforexample:M.Kop,EstablishingaLegal-EthicalFrameworkforQT,YaleJ.L.&Tech.
+TheRecord(2021).https://yjolt.org/blog/establishing-legal-ethical-framework-quantum-
+technology
+
+===== PAGE 57 =====
+5544 5555
+Ethically aligned design
+Wellbeing/humanrights
+i
+mprove im
+prove
+Lawsandregulations
+Valuesandnorms,
+ethicalprinciples
+leadto
+Figure02 Therelationshipbetweenvaluesandnorms,lawsandregulationsand
+wellbeing/humanrights(IEEE,2017)21
+Legal frameworks set constraints. When considering the use of
+technology, there are always laws and regulations that must be
+followed. Legal frameworks restrict the room for maneuver. It is
+therefore relevant to consider legal frameworks explicitly in addition
+to ethical frameworks. We distinguish general laws and regulations
+that can apply to all sectors and application areas. In addition,
+there is technology-specific legislation to consider.
+Finally, there is legislation that is sector specific. The overview
+provided here is long, but not exhaustive. It provides initial direction
+in identifying relevant laws and regulations.
+General legal frameworks involve laws and regulations that apply
+regardless of application or sector. Examples include human rights,
+21 https://ethicsinaction.ieee.org/Sourcefigure: https://ethicsinaction.ieee.org/
+wp-content/uploads/ead1e.pdf
+
+===== PAGE 58 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+fundamental freedoms and economic or social rights, civil law,
+criminal law, administrative law, or tax law. We list some of them here.
+Human rights
+The terms basic rights, fundamental rights or human rights are often
+used interchangeably. They are legal norms whose purpose is to
+assure citizens of personal freedoms and a dignified existence. They
+are rights that apply to all people, regardless of a citizen's nationality.
+There are several national and international sources for this category
+of rights, such as:
+• International Covenant on Civil and Political Rights (ICCPR)
+• European Convention on Human Rights (ECHR)
+• Charter of Fundamental Rights EU
+• International Covenant on Economic, Social and
+Cultural Rights (IVESC)
+• The constitution
+General data protection regulation (GDPR)
+The AVG is the Dutch implementation of the European General Data
+Protection Regulation (GDPR). The AVG contains specific rules for
+the processing of personal data by companies and the government.
+Among other things, the implementation of the AVG has strengthened
+and expanded privacy rights. Organizations have also been given
+more responsibility in this area. In addition, there is a separate
+directive for data protection in police and justice. These are the
+Police Data Act (Wpg) and the Judicial and Criminal Records Act
+(Wjsg).
+General administrative law and general principles of good
+governance
+Public bodies must comply with rules of conduct regarding citizens
+and businesses. Some of these rules are contained in the General
+Administrative Law Act (Dutch: Awb), but there is also so-called
+‘unwritten law’. This unwritten law is called the General Principles of
+Proper Administration (Dutch: Abbb).
+
+===== PAGE 59 =====
+5566 5577
+Intellectual property and patents
+Recent technological developments and geopolitical tensions lead to
+close scrutiny of the topic of intellectual property and patents. For
+analysis of the topic in the context of quantum technology, see this
+footnote.22
+Specific legislation for quantum technology
+Currently, there is no legislation (yet) specifically regulating the social
+opportunities and prevention of negative impacts of the deployment
+of quantum technology. It is important here to determine whether the
+quantum application stands alone or is used in combination with or
+for the benefit of other technologies, such as artificial intelligence (AI)
+or biotechnology, for example.
+There are already specific rules around the use of AI and data, as
+described for example in the AVG. Also, in Brussels, the European
+Union is currently working on the European AI Act. The proposed law
+divides AI systems, products, and services into four risk categories.
+The first category is prohibited applications, such as government-run
+social scoring systems. The second risk category names high-risk
+applications, such as HR systems. These types of systems are subject
+to specific legal requirements.
+Furthermore, there are two remaining groups of applications that are
+not explicitly categorized as ‘prohibited’ or ‘high risk’, namely Limited
+Risk, and Minimal Risk. As the risk of the AI application increases,
+regulatory requirements become more stringent, or prohibited.23 An
+important tool to ensure regulatory compliance of high-risk systems
+is CE marking. This certification is required prior to the market
+introduction of AI applications.
+22 Aboy,M.,Minssen,T.&Kop,M.MappingthePatentLandscapeofQuantumTechnologies:
+PatentingTrends,InnovationandPolicyImplications.IIC53,853–882(2022).https://link.
+springer.com/article/10.1007/s40319-022-01209-3:
+23 Formoreinformationonthe EUAIAct:MauritzKop,EUArtificialIntelligenceAct:The
+EuropeanApproachtoAI,TransatlanticAntitrustandIPRDevelopments(2021),https://law.
+stanford.edu/publications/eu-artificial-intelligence-act-the-european-approach-to-ai/
+
+===== PAGE 60 =====
+ExploratoryQuantumTechnologyAssessment
+The EU and US
+Whereas Brussels has taken the lead in regulating AI within Europe,
+Washington adopted quantum-specific regulation for the United
+States in May 2021 in the form of two Directives.24 Also, in May this
+year, a "national security memorandum" was issued by the Biden
+Administration. In so doing, on the one hand, the U.S. wants to better
+facilitate its own market leadership around quantum technology by
+encouraging innovation. On the other hand, it wants to prevent the
+technology from falling into the wrong hands and thereby threatening
+economic stability and national security.
+As part of the National Security Memorandum, export controls will be
+established for certain quantum technologies. It also aims to prevent
+intellectual property theft (‘IP theft’) and address and reduce risks
+about cybercrime.
+The AI Act's risk-based approach is well suited to regulating quantum
+technology as most quantum technologies are dual-use applications
+— meaning that the applications can be used for both civilian and
+military purposes, for example nuclear applications (medical isotopes
+versus the atomic bomb). In addition, the unique properties of quantum
+require a tailor-made approach. It is therefore expected that the
+European Union will propose legislation specific to quantum technology
+within a few years, in the form of a Quantum Governance Act.25
+It is also conceivable that there will be an international treaty in
+the form of a Quantum Treaty. It is expected that standardization,
+certification, and lifecycle auditing by means of binding Exploratory
+Quantum Technology Assessments will play an important role in this.
+In addition, because of the current geopolitical situation, it is quite
+possible that the EU will also issue export controls. This will directly
+affect research and trade in quantum technology and materials and
+the fragile supply chain of software and hardware structures. Finally,
+24 Factsheet:PresidentBidenAnnouncesTwoPresidentialDirectivesAdvancingQT,White
+House(May4,2021).https://www.whitehouse.gov/briefing-room/statements-releases/2022/
+05/04/fact-sheet-president-biden-announces-two-presidential-directives-advancing-
+quantumtechnologies/
+25 Foratransatlanticperspective:RegulatingQuantumTechnology,https://law.stanford.edu/
+projects/regulating-quantum-technology/
+
+===== PAGE 61 =====
+58 59
+it is expected that there will be tough requirements for funding
+quantum R&D.
+Proactive anticipation
+What does all this mean for Exploratory Quantum Technology
+Assessment (EQTA) users? It is important to be aware of the legal,
+ethical, social, and policy aspects of quantum technology. This is also
+abbreviated as Quantum-ELSPI (where ELSPI stands for Ethical,
+Legal, Social and Policy Implications).26 Thus, the EQTA tool can be
+used to identify current - and future - legal requirements for the use
+of quantum technology and thus proactively anticipate them. This
+applies not only to legal compliance, but also to intellectual property
+opportunities and responsibilities (rights and obligations).
+Sector and industry-specific frameworks
+Finally, there are specific frameworks for sectors that are important
+to consider, for example:
+• Legislation in the financial sector, for example the Financial
+Supervision Act (Dutch:Wft) and the Prevention of Money
+Laundering and Financing of Terrorism Act (Dutch: Wwft).
+• Telecommunications legislation (the Telecommunications Act).
+• Legislation for patient rights within healthcare, for example
+the Medical Treatment Agreement Act (Dutch:WGBO).
+• Legislation for medical devices in health care (Medical Device
+Regulation).
+There are also (international) laws and regulations in the field of
+product safety that may be relevant in the deployment of quantum
+applications. Examples include the Product Safety Directive and the
+Machinery Regulation.
+26 ExamplesofQuantum-ELSPIquestionsrelevantfortheuseofEQTAcanbefoundhere:
+QuantumELSPI:Ethical,Legal,SocialandPolicyImplicationsofQuantumTechnology,
+DigitalSociety(SpringerNature)2021,https://link.springer.com/collections/eiebhdhagd
+
+===== PAGE 62 =====
+ExploratoryQuantumTechnologyAssessment
+Medical quantum applications
+A recent example that illustrates the diverse legal impact of applying
+quantum technology is the 'quantum-infused medical device'
+marketed in Europe. Moreover, this also features AI/Machine Learning
+and classical data. From a legal point of view, this qualifies as a
+quantum/AI hybrid. This means that in addition to the general legal
+frameworks, the various technology-specific frameworks (for AI, data,
+and quantum) apply. In addition, the vertical, sector-specific
+frameworks (in this case Healthcare/Healthcare) will apply.
+Once the European laws are passed, this means that on these
+medical devices the following applies (at least):
+• The EU AI Act.
+• The Quantum Governance Act
+• The range of laws that make up the European Strategy for
+Data (GDPR, FFD, Data Act, Data Governance Act, etc.).
+• The Medical Device Regulation.
+• The Database Directive.
+• Relevant IP Directives.
+• Possibly certain export controls as described in the
+Wassenaar Arrangement.
+• Dutch laws and regulations.
+Please note that if you are doing business in the U.S. or Asia, for
+example, local laws apply there.
+
+===== PAGE 63 =====
+60 61
+In addition, the EQTA can be used by a multidisciplinary team to look
+at what intellectual property rights arise and need to be registered,
+such as patents, copyrights, and trade secrets. If applicable, the
+technology transfer agreement with universities may be reviewed as
+well. Optimizing the patent portfolio increases the value of medical
+devices. Additionally, counterfeiting can be reduced, with help of
+enforcement. If third-party Intellectual Property is used in medical
+equipment, the EQTA report will indicate that it must be licensed, to
+prevent infringement of third-party IP. You can use the EQTA as a
+guide to identify the above issues, creating more awareness internally
+and externally about the legal framework.
+Complex trade-off: security and privacy
+In the context of quantum technology, it is relevant to highlight the
+complex trade-off between security and privacy. This complexity is
+particularly relevant in the development of applications in the field of
+quantum communications and the upcoming quantum internet.
+The Intelligence and Security Services Act (Dutch:Wiv) and the
+debates surrounding it, as well as the passing of the Network and
+Information Systems Security Act (also known as the Cybersecurity
+Act), Computer Crime III, and the Article 29 Working Group's position
+on encryption, show that security of the Internet, communications
+and information is a highly relevant and contested topic. Several
+interests play a role here. The potential deployment of quantum
+networks is no different.
+On the one hand it is important that sensitive information and
+communications of both governments and citizens are secure and
+confidential, on the other hand it is desirable or even necessary for
+national security —or the investigation and prosecution of criminal
+offenses in some cases— to be able to intercept certain information
+and communications.
+
+===== PAGE 64 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Appropriate measures
+The public debate on the Dutch Wiv, the outcome of the referendum
+on the Wiv, and the increasing use by citizens of secure VPN
+connections that use encryption show that people are increasingly
+concerned with the security and confidentiality of communications.
+Also, legislation such as the Network and Information Systems
+Security Act and the General Data Protection Regulation (GDPR)
+require appropriate measures to be provided to secure networks and
+data. This could include, for example, encryption.
+On the other hand, providers of public telecommunications networks
+and public telecommunications services only make their networks
+and services available to users if they are interceptable under
+Chapter 13 of the Telecommunications Act. A non-hackable form of
+the Internet thus seems ideal within the framework of one piece of
+legislation, while it may not be desirable from the perspective of other
+legislation.
+Ethical framework
+Ethics is a philosophical discipline concerned with the study of ‘doing
+the right thing’. Ethics does not offer a checklist of what is right and
+wrong but provides methodologies for arriving at a judgment about
+what is right and wrong. An important goal of ethical consideration is
+to ensure that the final quantum application is in line with prevailing
+societal views of what is ethical. The purpose of this Exploratory
+Quantum Technology Assessment (EQTA) is not to tell you what is
+and is not responsible. It is up to the user to assess this. However, the
+EQTA does provide guidance for arriving at such an assessment.
+
+===== PAGE 65 =====
+6622 6633
+Digitization and new technologies, such as quantum technology,
+Artificial Intelligence, and cloud computing, raise ethical questions.27
+They often take the form of a question. For example: Is it acceptable
+to deploy this technology? Ethical frameworks are related to legal
+frameworks. Laws and regulations give context to the leeway one has
+when deploying technology. However, they are not separate from
+ethics. Social values are translated in society into norms, laws, and
+rules. Applicable norms and values can thus lead to laws and
+(behavioral) rules.
+We treat legal and ethical frameworks separately here because the
+frameworks have different dynamics for the user. In the legal
+framework, the law or regulation is the starting point for testing
+against the desired quantum application. In the ethical framework,
+societal values are the starting point. You can read more about the
+legal frameworks in the previous sections. The development of laws
+and regulations takes time, and is lagging behind the rapid technical
+developments. As a result, the legal framework often does not yet
+provide enough guidance and an ethical consideration can be useful.
+Q
+“Quantum technology is still unknown to
+many people and to some extent will
+remain incomprehensible for a very
+long time — even for experts.”
+27 InformationaboutECP'sApproachandaccompanyingGuidetoGuidanceEthicscanbefound
+athttps://ecp.nl/publicatie/guidance-ethics-approach/
+
+===== PAGE 66 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+The Quantum Computing Governance
+Principles
+The World Economic Forum (WEF) provides a guide for analyzing and
+framing the translation of ethical concerns in the context of quantum
+computing into governance: The Quantum Computing Governance
+Principles (2022).28 As such, this applies only to quantum computing
+and not to the entire family of quantum technology.
+Quantum computing stakeholders
+Corporations Corporations
+Governments Academics International andprivate andprivate Developers Consumers
+and organizations entitiesthat entitiesthatare (individuals) (individuals)
+universities areusingthe developingthe
+technology technology
+Figure03 Quantumcomputingstakeholders(Source:WorldEconomicForum)
+To identify impact areas, WEF first identifies key stakeholders based
+on their interests. Below is an example of different stakeholder groups
+in the implementation of a technology.
+It then identifies key core values and themes. Within each theme,
+objectives, opportunities, and negative impacts are identified that
+together form the basis for the formulation of principles and
+associated actions.
+28 https://www3.weforum.org/docs/WEF_Quantum_Computing_2022.pdf
+
+===== PAGE 67 =====
+6644 6655
+Core values
+In the WEF report, the authors identify some core values that should
+form the basis for the development of quantum technology. The WEF
+states that it is important for stakeholders to consider these core
+values when developing an application.
+Below we list the most important core values from the World
+Economic Forum (WEF) report:29
+Contributing to the Common Good
+Conduct an analysis of how the intended application of quantum
+technology can contribute to the wellbeing of society. The application
+should be harnessed to benefit humanity.
+Accountability
+The application must be designed and implemented so that an
+organization can be held accountable for its impacts and the
+organization is able to manage those impacts. This means mitigating
+negative impacts and enhancing opportunities. It is not just about the
+design of the technology, but also its use and results. On the other
+side, society has set up institutions that impose sanctions on
+organizations that evade this accountability or fail to act when the
+consequences are negative.
+Inclusivity
+When assessing the impact of technology and analyzing its potential
+contribution to society, organizations should strive for inclusiveness.
+This should include a diverse range of stakeholder views. The goal is
+meaningful dialogue and to avoid overly narrow definitions of what
+might be considered harmful or beneficial uses of technology.
+29 ForafulloverviewoftheWEFreportcanbefoundhere:https://www3.weforum.org/docs/
+WEF_Quantum_Computing_2022.pdf
+
+===== PAGE 68 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+WEF Quantum computing governance principles
+Themes and cross-cutting core values
+Transformative
+Sustainability capabilities
+Accesstohardware
+Standardization TTrraannssppaarreennccyy C g o o m o m d on infrastructure
+si
+bility A c
+c
+o
+u n
+e
+s
+Core
+ta
+c b
+A
+c
+values yti
+il
+Privacy m
+a lef N ic o
+e
+n
+n
+-
+e
+Inclusive
+ness Openinnovation
+Equitability
+Cybersecurity Creatingawareness
+Workforcedevelopment
+andcapability-building
+Figure04 Quantumcomputinggovernanceprinciples
+(Source:WorldEconomicForum)
+Equitability
+Developers and users of quantum technology shall ensure that the
+benefits of the technology and its impact are distributed fairly and
+evenly among different groups. Particular consideration is given to
+any specific needs of vulnerable populations to ensure equitability.
+
+===== PAGE 69 =====
+6666 6677
+Non-maleficence
+Ensure that all stakeholders use the technology in a safe, ethical,
+and responsible manner so that the technology does not cause harm.
+All stakeholders ensure that the technology does not endanger
+people, intended or unintended. To ensure that no harm is caused,
+data on impact should be collected systematically. For example, an
+organization might be doing what it is supposed to do — according
+to legal obligations. However, in view of this value, that does not
+relieve an organization of the duty to check or monitor the effect
+of actions taken. Consider the cases often targeted by the National
+Ombudsman or The Kafka Brigade Foundation — in which organizations
+comply with their legal duties and carry out their obligations, but
+entirely unintentionally, still cause harm. This value means, for
+example, that organizations must gather information about the
+impact of their actions on stakeholders and intervene when that
+impact is unintended.
+Accessibility
+Knowledge of quantum technology and access to facilities to apply
+the technology (think quantum computing-as-a-service) must be
+widely accessible to society. This value includes the development,
+application, and use of the technology. To align with this value,
+measures are needed around standardization, preventing monopoly
+positions or dependence on a single party or country. The market
+must be designed to allow new entrants to enter the market, with new
+services or products using quantum technology.
+An important aspect of accessibility is that quantum technology
+eventually becomes affordable and usable by all who have an interest
+in it. This principle may conflict with the interests of governments
+(military strategic potential of quantum technology) and large
+parties who have the investment capacity to take over and control
+the market.
+
+===== PAGE 70 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+This principle requires government regulation, agreements on being
+able to share and reuse data and the effective management and
+control of data by stakeholders. However, it also requires awareness
+on the part of purchasing that selecting from a large and cheap
+vendor need not be in the long-term interest of the organization
+itself, a sector or society.
+Transparency
+Users, developers, and regulators are always transparent about their
+purpose and intentions regarding quantum technology.
+Other ethical frameworks
+Of course, the WEF Principles is not the only ethical framework you
+can apply to quantum technology. As we saw earlier with AI, many
+quantum ethics initiatives are currently under development.
+Moreover, ethics is dynamic, culturally sensitive, and context specific.
+You can decide which ethical framework you find most appropriate
+within the context of your application of quantum technology, as long
+as there is a clear scientific methodology underlying such a
+framework.
+Moreover, it must come from a reliable source (such as the UN, OECD,
+Asilomar, or the IEEE). An ethicist specializing in technology will be
+able to assist you in this regard.30 What is crucial here is that the
+ethical framework is as quantum specific as possible, supplemented
+by principles, values, goals, and themes relevant to each system or
+technology.31
+30 Thisagainemphasizestheimportanceofdiscussing/implementingEQTAinmultidisciplinary
+teams.
+31 MauritzKop,Whyweneedtoconsidertheethicalimplicationsofquantumtechnologies,
+17Dec2021,PhysicsWorld,IOPPublishing,https://physicsworld.com/a/why-we-need-to-
+consider-the-ethical-implications-of-quantum-technologies/
+
+===== PAGE 71 =====
+6688 6699
+In Practice
+Step 4: Stakeholder dialogue
+The EQTA does not provide a checklist of what is right and wrong, or
+what is allowed or what is forbidden. The framing of the ‘right or
+wrong’ of a technology may lead to its complete embrace or
+condemnation. This could create the impression that technology and
+society are opposed to each other, where they are extensively
+interconnected. Technology can bring benefits to society, for example
+by improving health care, while at the same time producing negative
+impacts, for example around privacy. Rather than judging technology
+in its generality, it makes more sense to guide the application of a
+particular technology in a specific context in an ethically sound
+manner.
+The EQTA takes this close interconnectedness of technology, people,
+organization, and society as its starting point.
+In the Quickscan, the purpose of the dialogue is to quickly form a view
+which aspects are relevant and whether a more precise analysis is
+needed (after the dialogue, step 4, the reader goes back to step 1).
+The reader who has gone through steps 1, 2 and 3 has now identified
+areas of concern from different perspectives: social, technical,
+organizational, legal, and ethical. This fourth step brings together
+these concerns and requirements.
+The methodology used for both is that of dialogue, in which different
+people (experts in relevant fields, end users, management and those
+in the organization who must work with the technology) enter the
+creative conversation to translate these concerns and requirements
+from often very different and usually separate domains into concrete
+approaches.
+
+===== PAGE 72 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Guidance ethics approach
+Stage1 Stage2 Stage3
+Case Dialogue Options for action
+Technology
+A c
+t
+ors V
+a
+lu
+e s
+Technology
+Environment
+incontext
+Effects
+User
+Figure05 Guidanceethicsapproach
+Approach to Guidance Ethics
+The dialogue uses the Approach to Guidance Ethics to bring together all
+the different aspects and interconnectedness and provides a (desirable)
+direction. This changes the question from whether a technology is
+responsible to how we can develop and use the technology responsibly.
+In guidance ethics, the focus is not the technology as a whole, but the
+specific application. Here it is important to describe the context of
+the technology application as concretely as possible (in step 2 of this
+step-by-step plan a start has already been made).
+The more concrete the application can be described in the context,
+the more accurately the impact on people and society can be mapped
+out (phase 1). It is then important to identify all those involved in
+the application, as well as the positive and negative effects that the
+technology application has on those involved and the values that
+are at stake (phase 2).
+
+===== PAGE 73 =====
+7700 7711
+Finally, it is important to name concrete approaches. This focuses
+on what measures can be taken to mitigate negative effects and/or
+optimize positive effects. These may include measures within the
+technology itself but may also include adjustments in the context
+or improvements in the use of the technology (phase 3). It is best to
+discuss these issues in a dialogue format in which all stakeholders
+participate.32
+Step 5: Considerations and assessment
+To make trade-offs, several proven mechanisms from the legal
+toolbox can be used: effectiveness, necessity, subsidiarity, and
+proportionality. These tools are also very useful for making trade-
+offs about the totality of legal, social, and ethical impact.
+Effectiveness
+Effectiveness requires assessing whether the proposed action will
+sufficiently achieve the goal you have in mind. This therefore requires
+foresight. How likely is it that the deployment of the quantum
+application will actually achieve the stated goal (or goals)?
+Necessity/subsidiarity
+In assessing whether a quantum application is necessary and
+subsidiary, all tools available to achieve the stated goal(s) must
+be considered. It must then be determined whether the intended
+application is the least intrusive means of achieving that goal(s).
+Proportionality
+Thefinalstepintheassessmentistodetermineproportionality.
+Thequestionofwhetheranapplicationisproportionateisrelatedto
+theimpactofthequantumapplicationontheindividual,versusthe
+importanceofthesocietalgoalsbeingpursued.Inotherwords,itisa
+32 ApproachGuidanceethics:https://ecp.nl/wp-content/uploads/2020/11/Guidance-ethics-
+approach.pdf
+
+===== PAGE 74 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+trade-offbetweentheimpactonindividualsontheonehandandthe
+interestbeingpursuedontheother.Overall,foramoreimportantgoal,
+moreispermissible.
+Step 6: Commitment and accountability
+It is advisable to record the outcomes of the steps taken. First, this
+serves as reference and assurance of decisions made for the design
+and further development of the application. In addition, recording
+the steps taken can help to better substantiate decisions and
+considerations. Annex 02 provides an overview of documenting
+the outcomes of the steps and considerations.
+Step 7: Feedback and periodic evaluation
+The final step focuses on feedback and evaluation. Chances are that
+your quantum application is still under development. Therefore, it is
+advisable to periodically reflect on the ethical and social justification
+of the technology application. Regular evaluation creates a feedback
+loop that improves the application of quantum technology and
+makes it more effective. In this step, also clarify the how you intend
+to achieve this feedback loop.
+
+===== PAGE 75 =====
+7722 7733
+“Quantum Technology sets
+new quality requirements
+for technology”
+
+===== PAGE 76 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+03
+
+===== PAGE 77 =====
+7744 7755
+03
+Quantum technology
+examples
+Although quantum technology holds great promise, many
+applications are still in a research or exploratory phase.
+Developments in quantum technology are mostly taking
+place in a laboratory environment, for now.
+However, there are also more and more ideas and initiatives to apply
+quantum in practice. In case you do not yet have a concrete idea of
+the potential applications of quantum technology, in this last section
+we briefly examine a number of quantum initiatives from practice.
+Many organizations are taking steps to acquire competencies in the
+field of quantum technology. Larger organizations will often have
+teams dedicated to investigating opportunities and potentially
+negative impacts of new technologies. In many cases, they are
+looking at how quantum technology can be used to achieve their
+goals. In addition, a growing number of organizations see quantum
+technology coming their way and are sometimes concerned about
+
+===== PAGE 78 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+the negative impacts. For instance, there may be issues regarding
+encryption.
+In the final part of the Exploratory Quantum Technology Assessment
+(EQTA), we look at examples of organizations preparing for quantum
+technology. Some applications are near at hand and require concrete
+action already. Other applications are even further away with
+organizations making initial explorations into the possibilities (see
+page 93: What can quantum technology do?) How far along different
+types of applications are).
+Because concrete applications are also still in their infancy, we are
+not yet talking about use cases or scenarios, but rather examples. In
+the following sections, therefore, you will find some examples of
+organizations preparing for the arrival of quantum technology. How
+are they taking advantage of the opportunities? And how are they
+preparing for any negative effects?
+Quantum sensing and water quality
+The Ministry of Infrastructure and Water Management is closely
+following the development of quantum technology. First, the ministry
+is focusing on scenarios for making the government quantum secure.
+In addition, the ministry is looking at the opportunities of quantum
+technology: a special team is currently exploring the possibilities for
+applying quantum technology for monitoring surface water.
+Surface water quality is now largely measured by taking samples,
+which are then sent to the laboratory. Measures can then be taken
+based on the results. In addition, it is not possible to measure all
+chemical compounds. This makes it challenging to take timely and
+appropriate action, especially in the case of potential public health
+hazards.
+
+===== PAGE 79 =====
+7766 7777
+Governments and water companies are responsible for water quality.
+If governments and water companies cannot perform this task
+properly, it can lead to threats to public health, the reduction of food
+production, the blocking of economic growth and, finally, reputational
+damage. Due in part to intensive land use, the high population density
+in the Netherlands, and discharge to water of chemicals such as
+PFAS, the water quality of the Netherlands is under pressure. Major
+pollution sources that need to be addressed include manure and
+pesticides from agriculture. Contaminated water is not suitable as
+drinking water because of adverse health effects. An additional
+problem is that it is difficult and costly to make the water suitable for
+human consumption.
+Mapping distribution of pollution
+Quantum technology combined with Artificial Intelligence (including
+Machine Learning), sensors and simulations may be able to help
+provide insight into pollution and how pollution spreads through
+water.
+Scientists are currently working on hyper-sensitive quantum sensors
+that can measure in real time which substances or chemical
+compounds are present in a liquid.
+Machine Learning is already being used to build models that can
+predict dispersion of substances in surface water. It is expected that
+quantum computing can (eventually) make Machine Learning more
+powerful and faster.
+This way, quantum technology could make a significant contribution
+to water quality. For example, this technology may provide much
+better understanding of water quality while keeping the costs of
+water quality monitoring, water treatment and enforcement
+manageable.
+
+===== PAGE 80 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Pilot secure communication network
+Port of Rotterdam
+The port of Rotterdam is experimenting with the application of
+quantum technology. In doing so, the port sees opportunities
+especially in the field of secure communication. Among other things,
+the port authority wants to experiment with a quantum network to
+communicate securely with various users. This includes, for example,
+communication with harbor masters and customs. This way, the port
+authority hopes to prevent misuse of its critical infrastructure.
+Securing communication systems can increase the safety of sea-
+going vessels and improve the resulting economic traffic.
+The port of Rotterdam represents an important part of the Dutch
+economy, handling nearly 15 million sea containers a year. This makes
+it one of the largest ports in the world. The total economic added
+value of the port is 8.2% of Dutch GDP (63 billion euros) and employs
+more than 500,000 people directly and indirectly.
+Substantially increase security
+The port authority manages a critical infrastructure on which Dutch
+society is highly dependent. In doing so, the port authority uses
+crucial data necessary for the safe transit of ships, people, and cargo.
+This includes, for example, measurement of water levels. If this can be
+tampered with by hackers, the consequences could be devastating.
+By using quantum properties, it is possible to detect whether keys
+have been intercepted during transport over the network. Those
+secret keys are then used to encrypt information at the sender and
+decrypt it at the receiver. The encrypted information is otherwise
+transmitted over the ‘regular’ Internet.
+
+===== PAGE 81 =====
+7788 7799
+Based on this new technology (the protocol was already developed in
+1984,33 but application in practice only followed in the last decade34)
+data can be exchanged between a selected number of parties in the
+port in a protected environment. The Port of Rotterdam Authority,
+Portbase (an initiative of the ports of Rotterdam and Amsterdam
+that digitally connects companies and organizations with the ports)
+and several nautical service providers will participate in the test.
+The purpose of the experiment is to further validate the technical
+capabilities of the system. The strength of the chosen setup is the
+ease with which it can be expanded to include many more users at
+relatively low cost.
+Preparing quantum-secure encryption in
+the government and financial sector
+As mentioned above, there are many organizations that are dealing
+with quantum technology in ways other than applying the technology
+themselves. For example, quantum computing may eventually cause
+the cryptography currently used in many Internet protocols to
+become inadequate. For this reason, there is increasing attention to
+quantum-secure cryptography. That is, cryptographic technology
+that a quantum computer is unable to crack. It sometimes seems
+paradoxical that today's ordinary computers and phones can already
+perform quantum-secure encryption: quantum-secure cryptography
+does not require quantum computers.
+The U.S. National Institute for Standards and Technology (NIST)
+recently selected encryption methods that cannot be cracked by a
+quantum computer. These methods are being tested worldwide and
+will eventually lead to a standard for quantum-secure cryptography.
+33 https://en.wikipedia.org/wiki/BB84
+34 https://en.wikipedia.org/wiki/Quantum_key_distribution
+
+===== PAGE 82 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Several organizations are already busy preparing for a migration to
+quantum-safe encryption. This includes the central government. This
+is done to protect against so-called ‘store now, decrypt later’ attacks.
+Hackers store the encrypted confidential information now: ‘store now’
+— once the encryption can be cracked with a quantum computer, the
+information is then decrypted: ‘decrypt later’. To make this type of
+attack more difficult, the government is working on a data migration
+plan to protect state secrets and other information that needs to be
+protected for longer periods of time by encrypting it with quantum-
+secure encryption.
+Joint approach
+A government-wide plan is currently being developed to collectively
+address this threat. The goal is a quantum-secure government. The
+Dutch Banking Association (NVB) is also working with banks in the
+Netherlands to raise awareness about the possibilities and negative
+effects of quantum technology within the financial sector.
+A major focus is ATMs: they have a lifespan of more than 10 years and
+must be prepared to run new encryption methods that are quantum
+secure. Thus, the NVB regularly holds seminars on this topic and
+various training courses have been developed for bank employees
+and managers in the financial sector. The NVB also maintains
+contact with its counterparts abroad on this issue. After all,
+implementation of new standards requires international cooperation.
+
+===== PAGE 83 =====
+8800 8811
+Exploring quantum technology in the
+financial sector
+Besides the awareness surrounding the negative effects of quantum
+technology in encryption, case studies are also being developed in the
+financial sector to explore the possibilities of quantum computing.
+They are looking at the option of using quantum algorithms for
+optimization to better predict interest rates in stock trading.
+Quantum computing can also offer interesting applications in
+optimization, for example in portfolio management and Machine
+Learning.35
+The development in the field of significantly more accurate and fast
+atomic clocks and oscillators (circuits) will enable much faster global
+trading.
+In addition, quantum algorithms for optimization and (Monte Carlo)
+simulations on quantum computers could potentially play a role in
+detecting suspicious transactions under the Anti Money Laundering
+(AML) legislation — in the future.
+Secure authentication and authorization
+Another important issue is the possibility of secure authentication
+and authorization using quantum technology. Quantum technology
+offers new methods of encryption (see the earlier example on page
+78: Pilot secure communication network Port of Rotterdam). In
+addition, there will be new methods for unambiguously determining
+whether data is being exchanged with the right machine and whether
+that machine is being operated by the right person.
+35 Forinstance,optionpricingenotherapplications(Orús,Román,SamuelMugel,andEnrique
+Lizaso.Quantumcomputingforfinance:Overviewandprospects.ReviewsinPhysics4(2019):
+100028.)-https://doi.org/10.1016/j.revip.2019.100028
+
+===== PAGE 84 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Quantum applications
+Advertisementstrategy
+Recommendersystems
+Consumerbehaviour
+MARKETING
+ICmanufacturing&desing Cybersecurity
+Material(recycling)management INDUSTRY DEFENSE Operationsoptimisation
+Supplychainmanagement Dataprocessing
+Aerospacematerialdesign SmartGridoptimisation
+Structuralanalysis MATERIAL ENERGY Oilwelloptimisation
+SCIENCE
+Moleculesimulations Seismicimaging
+Quantum
+applications
+Catalyst&enzymedesign Trafficsimulation
+Personalisedmedicines MEDICAL AUTOMOTIVE E-chargingoptimisation
+&PHARMA
+Genomicanalysis Autonomousdriving
+Portfoliooptimisation Timetabeldesign
+Frauddetection FINANCE TRANSPORT Ascendingphasesimulation
+Tradingstrategies Loadoptimisation
+LOGISTICS
+Planning&scheduling
+Trafficrouting
+Multi-modeloptimisation
+Figure06 Quantumapplications(Source:TNO)
+
+===== PAGE 85 =====
+8822 8833
+Quantum technology in the telecom sector
+The telecommunications industry will be affected by quantum
+technology in several ways. In this section, we list some
+developments, in the areas of quantum sensing, quantum
+communications, quantum computing and quantum encryption.
+Quantum sensing
+First and foremost, the new generations of quantum sensors —and
+atomic clocks in particular— will soon become part of the
+infrastructure (Technology Readiness Level (TRL) 6: experiments in
+the relevant environment. See page 90 for further explanation of TRL).
+As equipment in the networks operates much more accurately and at
+higher clock speeds, and can also be synchronized accurately,
+transmission capacity will also increase.
+Indeed, a major limitation to the current transmission capacity and
+processing capability of equipment is the relatively inaccurate
+measurement of time. The components of devices and in networks
+are tuned to each other by clock pulses: with each "tap," a command
+is executed. The data packets are given (relatively imprecise) time
+stamps. As the time pulses become more exact, the frequency of
+command execution can also increase, and the time stamps also
+become more accurate.
+In the past, the pace of events was determined by the clock tower
+that struck once every hour, and at a later stage once every fifteen
+minutes. Now the pace is determined by minutes: everyone has a
+clock that is accurate to the minute. The same applies to devices: the
+more precise the time measurement, the more frequent the pulses
+and thus the synchronization.
+
+===== PAGE 86 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Sensitive quantum gravity sensors will allow much more accurate
+mapping of the subsurface for infrastructure maintenance and
+construction (tlr 4).36
+New generation antennas
+Quantum technology may in future enable a new generation of
+antennas37 that is not only many times more sensitive, but, in the long
+run, may also be simpler, cheaper, and more robust (this application
+has the lowest readiness level, trl 1: the operation of the principle has
+been demonstrated in a laboratory). It is expected that the
+application of quantum sensors will find a place in, for example, radio
+technology (and thus the radio spectrum) and autonomous
+navigation.
+Quantum sensors are expected to be many times stronger and more
+accurate than current receiving devices due to their greater range. A
+related expectation is that quantum sensors will thereby enhance
+existing applications across the entire bandwidth of the radio
+spectrum. This applies both to GNSS (Global Navigation Satellite
+System) location determination and to mobile communications
+between devices.
+In addition, the application of quantum sensors could replace existing
+radio applications or introduce completely new uses of frequency
+space. Ultra-sensitive, low-energy quantum sensors are expected to
+be installed in various places to measure all kinds of properties of air,
+water, and soil. This will lead to significant challenges for the telecom
+infrastructure: safely transporting all this data will require major
+investments.
+36 https://www.nature.com/articles/s41586-021-04315-3,https://www.nobelprize.org/uploads/
+2018/06/popular-physicsprize2012.pdf
+37 https://www.forbes.com/sites/moorinsights/2020/04/30/big-atoms-make-small-super-
+sensitive-quantum-receivers/?sh=6c2cb737740c,https://www.army.mil/article/212935/army_
+researchers_make_giant_leap_in_quantum_sensingover:DavidMeyer,KevinCox,Fredrik
+Fatemi,PaulKunz,"DigitalCommunicationwithRydbergAtomsandAmplitude-Modulated
+MicrowaveFields",App.Phys.Lett.(R)112,211108(2018).[arXiv:1803.0354]-https://arxiv.org/
+abs/1803.03545
+
+===== PAGE 87 =====
+8844 8855
+Q
+“Quantum machine learning will
+recognize hidden patterns
+in datasets”
+Quantum communication
+Quantum Key Distribution enables more secure encryption and safer
+ways to authenticate and authorize. This involves using fiber-optic
+infrastructure to transmit quantum particles.38 Telecom providers
+have a role to play in developing this infrastructure.
+Communication between quantum computers will eventually take
+place over this network as well. This means that with a regulatory
+body such as the Dutch National Inspectorate for Digital
+Infrastructure (formerly Radiocommunications Agency as of Jan. 1,
+2023) —which deals with the security and reliability of digital telecom
+infrastructure and the continuity of organizations that depend on
+IT— telecom providers should at least be aware of the latest relevant
+developments. The geopolitical aspects (dependence on global
+players and large tech parties) may already require action while the
+technology is still developing.
+Quantum computing
+The telecom sector will be able to leverage the increase in computing
+power of quantum computers to address optimization problems for,
+for example, network load control, maintenance planning and
+prevention, and network design.39 Quantum Machine Learning can
+recognize patterns in large data sets that are currently hidden.
+38 Viadelucht(satellieten)kunnendezedeeltjesookwordenverzondenenintheoriezelfsfysiek.
+39 Enookhiergeldenvoornamelijkrealtimeaspecten:hoekunnenrealtimemetingengebruikt
+wordenvoorself-configuratievanhetnetwerk,bijvoorbeeldgebruikmakendvanQML.De
+publicatieis(niet-academici)tedownloadenvia:https://www.mdpi.com/2073-431X/10/6/71
+
+===== PAGE 88 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+This does presume cooperative collaboration, because without taking
+precautions in the Netherlands —and perhaps throughout Europe—
+the principle applies: 'the winner takes it all'. In that case, the telecom
+provider that has access to the most data would become the largest
+and could provide the best services in this area.
+Quantum-secure encryption
+Like the government and the financial sector, telecom providers will
+have to take measures as early as the next few years to ensure that
+networks and equipment will be quantum secure a decade from now.
+This means that the encryption methods used cannot be cracked by
+quantum computers.
+
+===== PAGE 89 =====
+8866 8877
+“Quantum technology enables
+new ways of encryption”
+
+===== PAGE 90 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+A01
+
+===== PAGE 91 =====
+8888 8899
+Appendix 01
+Quantum technology in brief
+This chapter briefly describes what quantum
+technology is, and its applications.
+A key question is that regularly arises: how far along is the
+technology? To this end, we introduce the concept of Technology
+Readiness Levels. An important source for this chapter is the
+publication ‘The impact of quantum’40 (July-2021), by Birch,
+commissioned by Quantum Delta Netherlands and Innovation
+quarter Zuid-Holland.
+40 https://www.quantumforbusiness.eu/insights/birch-quantum-impact
+
+===== PAGE 92 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Technology Readiness Levels (TRL’s)
+Because different applications of quantum technology vary widely in
+maturity, the concept of Technology Readiness Level (TRL) is used.
+This concept was developed by NASA41 and is now widely used to
+indicate the maturity of a technology. At trl 1 (the lowest level of
+maturity), only the basic principle that the application uses has been
+observed. One or two levels higher, the feasibility is also examined.
+From level 4, the technology is actually developed, and at levels 5 and
+6 also demonstrated. At level 6 through 9, systems and subsystems
+are also developed. At trl 9 (the highest maturity level), the system is
+also tested and ready to be implemented.
+What is quantum technology?
+Quantum technology is based on the laws of quantum mechanics:
+the laws that describe the behavior of particles at the level of atoms,
+photons, electrons, and molecules. Technological developments in
+recent decades have made it increasingly possible to measure and
+specifically influence the behavior of these particles.
+The phenomena described by the laws of quantum mechanics
+have puzzled scientists for several centuries. The laws of quantum
+mechanics describe the phenomena in such a way that they can
+be predicted. The first complete description of the phenomena by
+physicists is almost a century old (if we take the 1927 Solvay
+Conference42 as a milestone).
+41 https://www.nasa.gov/topics/aeronautics/features/trl_demystified.html
+42 https://en.wikipedia.org/wiki/Solvay_Conference(consulted10/18/2022)
+
+===== PAGE 93 =====
+9900 9911
+Technology readiness levels
+Systemtest,launch TRL9
+&Operations
+TRL8
+System/subsystem
+TRL7 development
+Researchto
+TRL6
+provefeasibility
+TRL5
+Technology
+development
+TRL4
+Technology
+TRL3
+demonstration
+TRL2
+Basictechnology
+research
+TRL1
+Figure07 TechnologyReadinessLevels
+In recent decades (and especially in recent years), technical
+developments have progressed to the point where we can not only
+observe and describe the behavior of these particles, but also
+increasingly learn to control and direct them. This leads to a large
+number of new applications. The latter is the reason for writing this
+Exploratory Quantum Technology Assessment (the EQTA).
+Incidentally, it is important to remember that being able to describe,
+predict and even manipulate the behavior of the smallest particles
+is very different from understanding the behavior. The words that
+quantum mechanics uses to describe phenomena are not necessarily
+explanatory: think of words strongly associated with quantum
+technology such as ‘quantum entanglement’ or ‘superposition’.
+
+===== PAGE 94 =====
+ExploratoryQuantumTechnologyAssessment
+They are concepts for describing and predicting the behavior of
+particles. These concepts can be compared to the law of gravity: the
+law of gravity says nothing about the mechanisms that cause gravity,
+but it allows us to describe and predict the behavior of objects here
+on Earth. Since no one is surprised by objects falling, no explanation
+(in words) is needed. We think the same will be true of quantum
+mechanics: once we get used to the applications of quantum
+technology, only scientists will ask questions about why.
+Using words to describe the behavior of particles quickly leads
+to misunderstanding. Such words therefore contribute to the
+mystification of quantum technology. Consider phrases such as
+‘quantum particles that are in two places at once’ or ‘quantum
+particles that acquire properties only when observed’. Or that in
+quantum entanglement one entangled particle ‘communicates’
+information with the other entangled particle ‘faster than light’.
+This type of explanation (in words) is not, we believe, necessary to
+understand applications (and the limitations) of quantum technology,
+and so this chapter refrains from such a description. After all, even
+from an ‘ordinary’ computer or cell phone, it is incomprehensible to
+most people (how using only the values 0 and 1 can create such
+complex functionality). We therefore focus in the EQTA on the
+functionality of quantum technology and not on providing an
+understanding of the laws of quantum mechanics.
+
+===== PAGE 95 =====
+92 93
+What can quantum technology do?
+Being able to measure, control and direct the behavior of quantum
+particles leads to three types of new applications: quantum sensors,
+quantum networks and quantum computers. Quantum-secure
+encryption is discussed in the last section: this issue affects the whole
+of society, regardless of whether an organization adopts quantum
+technology.
+Quantum sensors
+By using the laws of quantum mechanics, a new generation of very
+precise, robust, and perhaps more affordable sensors becomes
+available. Those sensors can be used, for example, to measure
+properties such as time, motion, acceleration, dimension, gravity,
+current and voltage.
+Applying these sensors creates opportunities for organizations to do
+things that are new, different, or better. Taking advantage of these
+opportunities requires adjustments within organizations and requires
+new collaborations between organizations. Being able to quickly
+measure all kinds of properties easily and highly accurately leads to
+ethical and legal questions: what is desirable and necessary? What
+safeguards are needed? The EQTA helps organizations think about
+these questions.
+Applications in a variety of domains
+It is difficult to estimate how big an impact quantum sensors will have
+on equipment functionality and—insofar as these sensors lead to
+lower costs for measuring these properties—to widespread
+application in electronics. Quantum sensors will find application in
+professional equipment in a variety of fields, including healthcare,
+logistics, construction, and telecom. For example, images from MRI
+scans will be able to achieve higher resolution. By precisely measuring
+very small differences in gravity, we will gain a better understanding
+of what is in the subsurface. Quantum sensors will be able to register
+
+===== PAGE 96 =====
+ExploratoryQuantumTechnologyAssessment
+motion and acceleration more accurately, allowing objects to be
+located much more precisely in space, even without GPS.
+Lasers will become more accurate and energy efficient because
+quantum sensors can also register small amounts of reflected light
+particles. This has implications for recognizing properties of liquids
+and materials: they may eventually be able to be measured much
+faster and cheaper.
+Faster and more accurate
+As quantum technology enables more precise measurement of time,
+it will lead to all kinds of noticeably faster applications. GPS will
+become many times more accurate because of this. The quantum
+sensors enable faster clock pulses (oscillators), and thus faster timing
+of execution of commands by processors and faster information
+exchange between the components of computers, telephones, and all
+kinds of devices.
+Better synchronization also enables faster information exchange
+between systems in wired and wireless telecom networks. With these
+more accurate sensors, chip sizes may be reduced even further.
+Perhaps these sensors will lead to a new generation of sensitive
+—and technically much simpler and more robust— antennas.
+Timeline: The development of these sensors using quantum
+technology is moving very quickly. Some applications (such as
+quantum clocks) are already coming to market.43 Many of the
+quantum sensors measuring properties are under development in
+laboratories.
+43 Ortt,R.(2020).DeTechnologie-monitor2020Quantumtechnologie.StichtingToekomstbeeld
+derTechniek,DenHaag.-https://stt.nl/nl/toekomstverkenningen/97-de-technologiemonitor-
+2020-quantumtechnologie/nationale-technologiemonitor-2020-quantumtechnologie
+
+===== PAGE 97 =====
+94 95
+Quantum networks
+In the area of security and communication, new functionality will
+gradually be added to networks we know today (through fiber, by air
+and/or by satellite), over the next few decades. This will enable more
+secure exchange of highly confidential information. Currently, there is
+a lot of focus on being able to exchange encryption keys
+confidentially: Quantum Key Distribution.
+Quantum networks also offer possibilities for authentication and
+authorization (establishing with certainty the identity of receiver and
+sender and the machines they use).
+Robust measures
+It is worth remembering that confidentiality during the transportation
+of information and being able to determine the identity of the sender
+and receiver with greater certainty are not enough to ensure
+confidentiality of information exchange. But quantum technology
+does enable newer, more robust measures in an increasingly complex
+set of measures.
+Quantum communications will eventually make it possible to connect
+quantum computers to form a larger quantum computer and thereby
+enable distributed quantum computing
+Timeline: These communication applications for secure exchange of
+information (Quantum Key Distribution) will come to market in the
+next few years or are at an experimental stage (trl 4-6).
+Standardization of secure encryption key exchange is at an advanced
+stage.44 Getting processors of quantum computers to work together
+over networks will require a longer period of time.
+44 https://www.standict.eu/discussion-groups/quantum-computing/297/towards-european-
+standards-quantum-technologies
+
+===== PAGE 98 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Quantum computers
+The promise of quantum computers is that a number of specific
+problems can be solved much faster with the quantum computer
+than with classical computers. In doing so, four types of applications
+are commonly identified:
+• Simulating the behavior of atoms
+Simulating the behavior of the simplest atoms is quickly too
+complex for current computers. However, quantum computers can
+be used to simulate the behavior of molecules and atoms (for drug
+and material development and for a variety of chemical and
+biological processes).
+• Solving specific problems more rapidly
+Quantum computers can solve certain problems faster. Consider
+optimization problems, where many different solutions are possible,
+each of which must be computed. Examples include traffic,
+logistics, finance, and healthcare. Searching large unstructured
+data sets may also be faster with quantum computers.
+• Rapidly breaking encryption of digital communications
+The encryption algorithms that are common today derive their
+power from computational problems that cannot be solved
+efficiently without knowing the key. However, some computational
+problems that current computers cannot solve now will soon be
+solvable by quantum computers. This means that a number of the
+encryption (and authentication) algorithms that are commonly
+used today will no longer be secure in the quantum computer era.
+• Machine Learning
+In the field of Artificial Intelligence (AI), Machine Learning will
+benefit from quantum computers.45
+45 Neumann,N.,Phillipson,F.&Versluis,R.Machinelearninginthequantumera.DigitaleWelt3,
+24-29(2019).https://doi.org/10.1007/s42354-019-0164-0
+
+===== PAGE 99 =====
+9966 9977
+Number of qubits in quantum computing
+(figurative)
+1.000.000
+10.000
+1.121
+100 53 65
+7
+2
+1
+1998 2001 2019 2020 2023 >2030
+Systemexecutes Googleclaimssupremacy Goalroadmap
+algorithm onSycamore IBM:Condor
+IBMperformsfactoring Expectation
+IBMHummingbird
+ona7qubitcomputer RoadmapIBM
+Figure08 Numberofqubitsininquantumcomputers(>10.000qubitsareneeded
+forsimpleapplications).Source:Birch(2021)
+Timeline: (see Figure 08) Currently, small quantum computers are
+available for experimental use and for gaining experience with their
+features. Major breakthroughs still need to occur before serious
+applications of the quantum computer will become viable: both in
+computing power and in basic things like quantum memory and data
+storage. The electronics needed to drive and embed a quantum
+computer are still under development. Algorithms and software are
+also still being worked on around the world.
+Yet even this observation about quantum computing is not entirely
+true: there are also ways to use the quantum computer in a heuristic
+sense to solve certain problems. That is, as a practical way to quickly
+arrive at a result without having to compute solutions all the way
+through. This type of application is more likely to be within reach.
+
+===== PAGE 100 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Quantum-secure encryption
+Even though it will be at least a decade before quantum computers
+are fit for purpose, society should anticipate their upcoming arrival
+now. After all, quantum computers have been proven to be able to
+crack the encryption methods commonly used today. Fortunately, we
+do not need quantum computing power to use quantum-secure
+encryption. The weaknesses in current forms of encryption can be
+fixed without using quantum computers.
+Much of the information that must remain confidential for longer
+than 10 years must therefore be quantum securely encrypted now.
+Devices and machines that have a lifespan over 10 years will already
+have to be equipped with encryption methods that are quantum
+secure. Think of ATMs in the street, bridges and locks in public
+spaces, or archives. The standardization of quantum-secure public-
+key encryption methods by NIST46 (National Institute of Standards
+and Technology) is at the conceptual stage. In the coming years,
+these methods will be used in a variety of services and products.
+The transition to new methods of encryption is a major area of
+concern for organizations, with some organizations anticipating the
+need to begin working with other organizations in the sector.
+Especially around ATMs, public-space equipment and archives
+mentioned earlier, best practices and guidelines need to be
+established quickly. Other organizations need to start encrypting
+information in such a way that it can be securely re-encrypted when
+needed. The knowledge and resources will not be available to every
+organization, and many of these developments will require closer
+collaboration.
+46 https://csrc.nist.gov/Projects/post-quantum-cryptography/post-quantum-cryptography-
+standardization
+
+===== PAGE 101 =====
+9988 9999
+“Quantum sensors will find application in
+professional equipment in a variety of
+fields, including healthcare, logistics,
+construction, and telecom”
+
+===== PAGE 102 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+A02
+
+===== PAGE 103 =====
+110000 110011
+Annex 02
+Roadmap template
+Going through the EQTA roadmap is more than just
+collecting information to make a decision about
+responsible application of quantum technology.
+The Roadmap helps organizations to consider what quantum
+technology may bring them, whether that is desiable, how to
+gain certainty about ideas and what is needed to realize them.
+The EQTA will help organizations to decide which developments
+they should follow regarding quantum technology, whether and
+how they can initiate and steer these developments. The EQTA
+will help organizations to decide that they need to gain experience
+with quantum technology. The EQTA can provide management,
+employees and other stakeholders with insights what quantum
+technology can mean and actively involve them in the development
+of ideas.
+
+===== PAGE 104 =====
+EExxpplloorraattoorryyQQuuaannttuummTTeecchhnnoollooggyyAAsssseessssmmeenntt
+Organizations will, after going through the EQTA, start to cooperate
+with others, or take effort to develop standards. Others will start to
+work on ethical frameworks and that legislation is developed.
+By going through the EQTA, organizations can better pay attention
+to the impact of relevant geopolitical developments on ideas about
+application. Organizations can make an effort to ensure that
+education responds in a timely manner to the skills needed to use
+quantum technology or that service providers develop services that
+meet their requirements and fit what they need. The most important
+part of going through the EQTA is therefore perhaps the last step,
+the evaluation: planning a moment to test the decision, looking at
+the effect of the measures taken and then planning further steps.
+Roadmap Exploratory Quantum
+Technology Assessment
+The fillable Roadmap is part of the Exploratory Quantum Technology
+Assessment. It will help organizations to decide which developments
+they should follow regarding quantum technology, whether and how
+they can initiate and steer these developments. The EQTA will help
+organizations to decide to what extent they need to gain experience
+with quantum technology. The EQTA can provide management,
+employees and other stakeholders with insights what quantum
+technology can contribute and involve them in the further
+development of ideas.
+
+===== PAGE 105 =====
+110022 110033
+Download the full EQTA Roadmap on
+quantumdelta.nl or scan the QR-Code.
+
+===== PAGE 106 =====
+ExploratoryQuantumTechnologyAssessment
+EQTA was made possible by the Ministry of Economic Affairs and
+Climate and funded by the Quantum Delta Netherlands Growth Fund.
+EQTA is a tool developed by the Centre for Quantum and Society.
+Colophon
+WiththankstoQDNL,whocommissioned
+ECP|PlatformfortheInformationSociety
+todeveloptheEQTA.Andtotheworking
+groupwithstakeholdersandexperts,led
+byProf.BartSchermer(LeidenUniversity,
+Considerati)andDaniëlFrijters(ECP),
+whoshapedtheEQTA
+Editor: EsterSchop,Lees-t.nl
+Design: FrankWestenberg
+Print: Veldhuizengrafischeffect
+Photography: MariekedeLorijn
+EricBrinkhorst
+AnneReitsma
+2023©QuantumDeltaNederland
+
+===== PAGE 107 =====
+104 105
+
+===== PAGE 108 =====
+ExploratoryQuantumTechnologyAssessment
+Centre for Quantum and Society
+Do you want to …
+…participate in
+our workshops,
+think tanks,and/or
+… invite us
+vprojects?
+to speak at
+your event?
+… explore the
+Ethical, Legal
+and Societal
+Aspects for your
+quantum usecase?
+… explore what
+…share knowledge quantum can
+about quantum mean for your
+and/or ethical, domain?
+legal and societal
+aspects?
+Contact us!
+cqs@quantumdelta.nl
+quantumdelta.nl

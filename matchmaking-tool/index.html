@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#000000">
+<title>Solutions Forward Challenges · QDNL</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  @font-face {
+    font-family: Shape;
+    src: url("fonts/ShapeRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Shape;
+    src: url("fonts/ShapeBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root {
+    --black: #000;
+    --white: #fff;
+    --ink: #111;
+    --muted: #5c5c5c;
+    --line: #d9d9d9;
+    --paper: #f3f3f3;
+    --warn: #f6f4ec;
+    --font: Shape, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--white); color: var(--ink); font-family: var(--font); font-weight: 400; font-size: 17px;
+    line-height: 1.45; letter-spacing: -0.02em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  }
+  body.editing { overflow: hidden; }
+  body.editing #app { height: 100%; display: flex; flex-direction: column; }
+  body.editing main { flex: 1; min-height: 0; overflow: auto; padding-bottom: 100px; }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--black); outline-offset: 2px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 32px; }
+  .wrap.wide { max-width: 1200px; }
+  .top { position: sticky; top: 0; z-index: 5; background: var(--white); border-bottom: 1px solid var(--black); }
+  .top-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; }
+  .brandlock { display: inline-flex; align-items: center; gap: 10px; background: none; border: 0; padding: 0; letter-spacing: 0.14em; font-size: 15px; font-weight: 500; }
+  .brandlock svg { display: block; height: 30px; width: auto; }
+  .event-label { white-space: nowrap; }
+  .top-meta { display: flex; align-items: center; gap: 16px; color: var(--muted); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .form-bar { margin: 0 0 32px; }
+  .track { height: 6px; background: var(--line); }
+  .track span { display: block; height: 100%; background: var(--black); transition: width 0.45s ease; }
+  @media (prefers-reduced-motion: reduce) {
+    .track span { transition: none; }
+    .seats img.arrive, .person.turn .person-inner { animation: none; }
+  }
+  .form-bar ol { display: flex; gap: 4px; list-style: none; margin: 10px 0 0; padding: 0; }
+  .form-bar li { flex: 1; min-width: 0; text-align: center; }
+  .form-bar button, .form-bar li span { display: block; width: 100%; background: none; border: 0; padding: 2px 0; color: var(--black); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .form-bar .wait span { color: var(--muted); }
+  .form-bar .now span { font-weight: 500; }
+  main { padding: 28px 0 36px; }
+  h1, h2 { font-weight: 400; letter-spacing: -0.03em; text-transform: uppercase; line-height: 0.95; margin: 0; }
+  .start h1, h1 { font-size: clamp(40px, 6vw, 60px); margin-bottom: 14px; }
+  h2 { font-size: clamp(28px, 4vw, 40px); margin-bottom: 10px; }
+  .kicker { margin: 0 0 14px; font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
+  .start { padding: 48px 0 64px; }
+  .hero-lead, .lead { max-width: 38rem; font-size: 18px; line-height: 1.45; }
+  .hero-lead { color: #e8e8e8; margin: 18px 0 28px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .home-actions, .dock, .row-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .btn { background: var(--black); color: var(--white); border: 1px solid var(--black); padding: 14px 18px; letter-spacing: 0.06em; text-transform: uppercase; font-size: 13px; }
+  .btn.secondary { background: var(--white); color: var(--black); }
+  .btn.light { background: var(--white); color: var(--black); border-color: var(--white); }
+  .btn.ghost { background: transparent; color: var(--white); border-color: transparent; padding-left: 0; }
+  .btn.text { background: none; border: 0; color: var(--black); padding: 8px 0; letter-spacing: 0.04em; }
+  .btn.icon { width: 48px; height: 48px; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+  .btn.icon.close { width: 40px; height: 40px; background: none; border: 0; color: var(--black); }
+  .btn.icon svg { display: block; }
+  .btn.add { width: auto; height: 72px; padding: 0 16px; gap: 12px; }
+  .btn.add .seats { width: 64px; margin: 0; flex: none; }
+  .btn.add .seats img { filter: brightness(0) invert(1); }
+  .btn.add svg { width: 26px; height: 26px; }
+  .room-actions { display: flex; gap: 8px; align-items: center; }
+  .btn.bin { width: auto; min-width: 72px; height: 72px; padding: 0 8px; gap: 6px; background: var(--white); color: var(--black); }
+  .btn.export { width: 72px; height: 72px; padding: 0; background: var(--white); color: var(--black); }
+  .btn.export svg, .btn.bin svg { width: 32px; height: 32px; }
+  .btn.bin.on { background: var(--black); color: var(--white); }
+  .bin-count { font-size: 12px; letter-spacing: 0.04em; }
+  .btn.danger { background: none; border: 0; color: #c1121f; width: 40px; height: 40px; padding: 0; }
+  .card-end { display: flex; justify-content: flex-end; }
+  .path { list-style: none; padding: 0; margin: 8px 0 28px; }
+  .path li { position: relative; display: grid; grid-template-columns: 28px 1fr; gap: 14px; padding: 0 0 18px; border: 0; }
+  .path li::before { content: ""; position: absolute; left: 13px; top: 28px; bottom: 0; width: 1px; background: var(--black); }
+  .path li:last-child::before { display: none; }
+  .path .num { position: relative; z-index: 1; width: 28px; height: 28px; border: 1px solid var(--black); background: var(--white); display: flex; align-items: center; justify-content: center; font-size: 13px; }
+  .path li.start .num { background: var(--black); color: var(--white); }
+  .path b { display: block; font-weight: 500; font-size: 17px; }
+  .path small { display: block; margin-top: 2px; color: var(--muted); font-size: 14px; }
+  .ask { margin: 20px 0 8px; font-size: 15px; color: #00f; }
+  .meta-line { display: flex; gap: 12px; margin: 4px 0 16px; }
+  .meta-line label { display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: center; gap: 8px; flex: 1; color: var(--muted); font-size: 14px; white-space: nowrap; }
+  .meta-line input { width: 100%; padding: 8px 10px; }
+  .quiet-title { font-size: 22px; margin: 40px 0 12px; }
+  .choices, .caps { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 22px; }
+  .choices { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .choices > .outcome { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; height: 100%; }
+  .choices.people { grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch; }
+  .who h2 { margin-bottom: 32px; }
+  .person { height: 100%; min-height: 112px; perspective: 1000px; }
+  .person-inner { display: grid; height: 100%; min-height: 112px; transform-style: preserve-3d; }
+  .person .face { grid-area: 1 / 1; position: relative; height: 100%; backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 1px solid var(--black); background: var(--white); padding: 16px; }
+  .person .front { width: 100%; text-align: left; cursor: pointer; }
+  .person .front b { display: block; margin: 0; font-size: 18px; font-weight: 500; letter-spacing: -0.02em; text-transform: uppercase; }
+  .person .back { transform: rotateY(180deg); background: var(--black); color: var(--white); display: flex; flex-direction: column; align-items: stretch; gap: 8px; cursor: pointer; pointer-events: none; }
+  .person .back .turn { align-self: flex-start; flex: none; background: none; border: 0; padding: 0; color: #cfcfcf; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; text-align: left; cursor: pointer; }
+  .person .back input, .person .back textarea { width: 100%; border: 0; padding: 0; margin: 0; background: transparent; color: var(--white); caret-color: var(--white); resize: none; overflow: hidden; field-sizing: content; min-height: 2.6em; height: auto; line-height: 1.3; font-size: 16px; }
+  .person .back input::placeholder, .person .back textarea::placeholder { color: #cfcfcf; }
+  .person.on .person-inner { transform: rotateY(180deg); }
+  .person.on .back { pointer-events: auto; }
+  .person.on .front { pointer-events: none; }
+  .person.turn.on .person-inner { animation: flip-to-back 0.45s ease; }
+  .person.turn:not(.on) .person-inner { animation: flip-to-front 0.45s ease; }
+  @keyframes flip-to-back { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+  @keyframes flip-to-front { from { transform: rotateY(180deg); } to { transform: rotateY(0deg); } }
+  .domains { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0 0 8px; }
+  .domains button { text-align: left; background: var(--white); border: 1px solid var(--black); padding: 12px; }
+  .domains button.on { background: var(--black); color: var(--white); }
+  .domains b { display: block; font-weight: 500; font-size: 15px; letter-spacing: -0.02em; }
+  .toggles { display: flex; flex-direction: column; gap: 8px; margin: 0 0 18px; }
+  .toggles button { text-align: left; background: var(--white); border: 1px solid var(--black); padding: 12px 14px; }
+  .toggles button.on { background: var(--black); color: var(--white); }
+  .choice, .outcome, .recent button, .room-card {
+    text-align: left; background: var(--white); border: 1px solid var(--black); padding: 16px 16px 14px;
+  }
+  .choice b, .outcome b, .room-card b { display: block; font-size: 18px; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 4px; }
+  .room-card .opens { display: block; margin-top: 6px; }
+  .choice span, .outcome span, .fine, .muted { color: var(--muted); font-size: 15px; line-height: 1.4; }
+  .choice.on, .outcome.on { background: var(--black); color: var(--white); }
+  .choice.on span, .outcome.on span { color: #cfcfcf; }
+  .field { display: flex; flex-direction: column; gap: 8px; margin: 0 0 16px; }
+  .field span { font-size: 16px; }
+  input[type="text"], textarea, select {
+    width: 100%; background: var(--white); border: 1px solid var(--black); border-radius: 0; padding: 12px 14px;
+  }
+  textarea { min-height: 120px; resize: vertical; line-height: 1.4; }
+  .pair { display: grid; grid-template-columns: 160px 1fr; gap: 10px; }
+  .seg { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 18px; }
+  .seg button { border: 1px solid var(--black); background: var(--white); padding: 8px 14px; }
+  .seg button.on { background: var(--black); color: var(--white); }
+  .note, .warn { background: var(--warn); padding: 12px 14px; margin: 0 0 14px; }
+  .roles { display: flex; flex-direction: column; border-top: 1px solid var(--black); margin-bottom: 22px; }
+  h2 + .roles, .roles.bare { border-top: 0; }
+  .seats { position: relative; width: min(560px, 100%); margin: 8px auto 18px; aspect-ratio: 651 / 396; }
+  .table-btn .seats { width: min(120px, 100%); margin: 0 auto; }
+  .focus-top .seats { width: 72px; margin: 0; flex: none; }
+  .seats img { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; }
+  .seats img.on { opacity: 1; }
+  .seats img.arrive { animation: seat-in 0.45s ease; }
+  @keyframes seat-in { from { opacity: 0; } to { opacity: 1; } }
+  .role { display: grid; grid-template-columns: 1.3fr auto; gap: 8px 16px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .role b { font-weight: 500; }
+  .role .seg { margin: 0; }
+  .presence { display: inline-flex; justify-self: start; border: 1px solid var(--black); }
+  .presence button { border: 0; background: var(--white); color: var(--black); padding: 8px 12px; }
+  .presence button + button { box-shadow: inset 1px 0 0 var(--black); }
+  .presence button.on { background: var(--black); color: var(--white); }
+  .role input { grid-column: 1 / -1; }
+  details { margin: 4px 0 18px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 15px; }
+  details ul { margin: 8px 0 0; padding-left: 18px; }
+  .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 4; background: var(--white); border-top: 1px solid var(--black); padding: 14px 0; }
+  .dock .wrap { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .dock-side { flex: 1; display: flex; min-width: 0; }
+  .dock-side.end { justify-content: flex-end; }
+  .jump { display: inline-flex; align-items: center; width: auto; height: 48px; padding: 0 14px; gap: 8px; }
+  .place { flex: none; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .room-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+  .room-top h1 { margin: 0; }
+  .page-map { display: flex; flex-wrap: wrap; align-items: center; gap: 0; list-style: none; padding: 0; margin: 0 0 22px; }
+  .page-map li { display: flex; align-items: center; color: var(--muted); font-size: 14px; }
+  .page-map b { color: var(--black); font-weight: 500; margin-right: 6px; }
+  .page-map li:not(:last-child)::after { content: ""; width: 16px; height: 1px; background: var(--black); margin: 0 8px; }
+  .card { border: 1px solid var(--black); }
+  .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; background: var(--black); color: var(--white); padding: 14px 18px; }
+  .card-top .brandlock { color: var(--white); }
+  .card-body { padding: 22px 22px 8px; }
+  .card h3 { font-size: clamp(28px, 4vw, 42px); font-weight: 400; letter-spacing: -0.03em; text-transform: uppercase; line-height: 1; margin: 8px 0 18px; }
+  .card h4 { margin: 18px 0 4px; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; color: var(--muted); }
+  .card p { margin: 0 0 8px; white-space: pre-wrap; }
+  .pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pill { border: 1px solid var(--black); padding: 3px 8px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+  .card-top .pill { border-color: var(--white); }
+  .recent, .room-grid { display: grid; gap: 10px; }
+  .recent button b { display: block; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 4px; }
+  .recent button span { color: var(--muted); font-size: 15px; }
+  .room-grid { grid-template-columns: 1fr; }
+  .floor { display: grid; grid-template-columns: repeat(5, 1fr); gap: 40px 20px; align-items: start; }
+  .floor .mark { width: min(120px, 100%); height: auto; }
+  article.room-card.place { border: 0; background: transparent; padding: 0; }
+  .table-btn { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 12px; background: none; border: 0; padding: 8px 0 0; text-align: center; color: var(--black); }
+  .mark { display: block; }
+  .table-name { font-size: 14px; font-weight: 500; letter-spacing: -0.02em; max-width: 9rem; }
+  .table-meta { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
+  body.table-open { overflow: hidden; }
+  body.table-open .room-screen { filter: blur(8px); pointer-events: none; user-select: none; }
+  .focus-layer { position: fixed; inset: 0; z-index: 30; overflow: auto; padding: 48px 24px; }
+  .focus-dim { position: fixed; inset: 0; border: 0; padding: 0; background: rgba(255, 255, 255, 0.45); cursor: pointer; }
+  .focus-card { position: relative; z-index: 1; width: min(680px, 100%); margin: 0 auto; background: var(--white); border: 1px solid var(--black); padding: 22px 22px 8px; }
+  .focus-top { display: flex; align-items: center; gap: 16px; margin-bottom: 18px; }
+  .focus-top .mark { width: 72px; height: auto; flex: none; }
+  .focus-top h2 { margin: 0; font-size: 22px; font-weight: 500; letter-spacing: -0.02em; }
+  .focus-top .btn { margin-left: auto; align-self: flex-start; }
+  .focus-card .card-edit { border: 0; margin: 0; padding: 0; }
+  .focus-card .choices { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .focus-card .choices > .outcome { align-items: center; text-align: center; }
+  .focus-card .choices.people { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .focus-card .choices.people > .outcome { align-items: flex-start; text-align: left; }
+  .focus-card .person .front b { font-size: 15px; }
+  .focus-card .person .face { padding: 12px 8px; }
+  .focus-card .outcome { padding: 12px 8px; text-align: center; }
+  .focus-card .outcome b { margin: 0; font-size: 15px; }
+  article.room-card { padding: 0; }
+  .card-head { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; background: none; border: 0; padding: 16px; text-align: left; }
+  .card-head b { display: block; font-size: 18px; font-weight: 500; letter-spacing: -0.02em; }
+  .card-head .meta { display: block; margin-top: 2px; }
+  .card-edit { border-top: 1px solid var(--line); padding: 8px 16px 16px; }
+  .chev { display: block; flex: none; }
+  .room-stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  .room-stats span { border: 1px solid var(--black); padding: 6px 10px; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .filters select { width: auto; }
+  .foot { color: var(--muted); font-size: 14px; max-width: 46rem; margin-top: 28px; }
+  .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--black); color: var(--white); padding: 10px 14px; display: none; letter-spacing: 0.04em; }
+  @media (max-width: 800px) {
+    .wrap { padding: 0 18px; }
+    .pair, .room-grid, .role, .meta-line { grid-template-columns: 1fr; }
+    .meta-line { flex-direction: column; }
+    .role .seg { justify-content: flex-start; }
+    .start { padding: 32px 0 48px; }
+    .room-top { flex-direction: column; align-items: flex-start; }
+  }
+    @media (max-width: 640px) {
+    .caps, .domains, .floor { grid-template-columns: 1fr 1fr; }
+    .form-bar button, .form-bar li span { font-size: 11px; letter-spacing: 0.02em; }
+    body.editing .event-label { display: none; }
+  }
+  @media print {
+    @page { margin: 14mm; }
+    .top, .dock, .no-print, .toast, details { display: none !important; }
+    body { background: white; }
+    main { padding: 0; }
+    .card { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="toast" class="toast" role="status"></div>
+<script>
+const STORAGE_KEY = "sfc-table-guide-v1";
+const EVENT_DATE = "26 November 2026";
+const DEADLINE = "25 January 2027";
+
+const DOMAINS = [
+  { id: "water", label: "Water" },
+  { id: "energy", label: "Energy" },
+  { id: "infrastructure", label: "Infrastructure" },
+  { id: "mixed", label: "More than one" }
+];
+
+const QUESTIONS = [
+  { id: "efficiency", label: "This challenge can be solved more efficiently." },
+  { id: "decisions", label: "Better decisions can be made with improved insights or optimisation." },
+  { id: "monitoring", label: "Monitoring, modelling or prediction can be improved." },
+  { id: "newValue", label: "Quantum technologies could create value that is not possible today." }
+];
+
+const QUANTUM = [
+  { id: "sensing", label: "Sensors", text: "Measure what is in water, under the ground, or changing in a system, more precisely than today." },
+  { id: "computing", label: "Computing", text: "Search a huge set of options, or simulate something current computers can only run by simplifying it." },
+  { id: "networks", label: "Secure links", text: "Know whether encryption keys were intercepted. The message itself still travels on the ordinary internet." },
+  { id: "safe", label: "Quantum-safe encryption", text: "Protect information and equipment that must stay trustworthy for years. This uses ordinary computers." }
+];
+
+const PROMPTS = {
+  water: [
+    "Which substances are in the water, soon enough to act, rather than after a laboratory sample?",
+    "How does pollution spread, and would a better model change a decision?",
+    "Where do monitoring, treatment or enforcement cost more than they should?"
+  ],
+  energy: [
+    "Which grid, storage or scheduling decision is hard because there are too many options?",
+    "Which prediction is too slow or too coarse for operations?",
+    "Which simulation can current computers run only by simplifying it?"
+  ],
+  infrastructure: [
+    "What do you need to know about the ground before maintenance or construction?",
+    "Which communication link must reveal if its keys were intercepted?",
+    "Which equipment or records must stay secure for more than ten years?"
+  ]
+};
+
+const ROLES = [
+  { id: "owner", label: "Challenge owner" },
+  { id: "domain", label: "Domain expert" },
+  { id: "quantum", label: "Quantum expert" },
+  { id: "commercial", label: "Innovation & commerce expert" }
+];
+
+const STEPS = [
+  { id: 1, kicker: "1", short: "Name" },
+  { id: 2, kicker: "2", short: "Problem" },
+  { id: 3, kicker: "3", short: "Quantum" },
+  { id: 4, kicker: "4", short: "Decision" },
+  { id: 5, kicker: "5", short: "Who" },
+  { id: 6, kicker: "6", short: "Card" }
+];
+
+const OUTCOMES = [
+  { id: "pursue", label: "Pursue", text: "Build the team and aim at a Phase 1 proposal by " + DEADLINE + "." },
+  { id: "watch", label: "Keep watching", text: "The angle is interesting. It is not ready to propose. Say what would reopen it." },
+  { id: "stop", label: "Not for quantum", text: "A current approach is enough, or quantum would not change the outcome. Say why." }
+];
+
+const SEED_SESSIONS = [{"id":"600cpzqs","created":1794281131503,"updated":1794313485491,"table":"","domain":"mixed","title":"","challenge":{"problem":"","who":"","cost":"","gap":""},"value":{"efficiency":false,"decisions":false,"monitoring":false,"newValue":false},"quantum":{"sensing":false,"computing":false,"networks":false,"safe":false,"note":""},"tests":{"effectiveness":"","necessity":"","impact":""},"decision":"","phase1":{"technical":"","economic":"","practical":""},"watchFor":"","stopBecause":"","participants":[],"findToday":"","nextStep":"","team":{"owner":{"here":true,"name":""},"domain":{"here":false,"name":""},"quantum":{"here":true,"name":""},"commercial":{"here":true,"name":""},"societal":{"here":false,"name":""}},"lastStep":5},{"id":"42uc2me8","created":1794282420581,"updated":1794282450880,"table":"","domain":"","title":"","challenge":{"problem":"","who":"","cost":"","gap":""},"value":{"efficiency":false,"decisions":false,"monitoring":false,"newValue":false},"quantum":{"sensing":false,"computing":false,"networks":false,"safe":false,"note":""},"tests":{"effectiveness":"","necessity":"","impact":""},"decision":"","phase1":{"technical":"","economic":"","practical":""},"watchFor":"","stopBecause":"","participants":[],"findToday":"","nextStep":"","team":{"owner":{"here":false,"name":""},"domain":{"here":false,"name":""},"quantum":{"here":false,"name":""},"commercial":{"here":false,"name":""},"societal":{"here":false,"name":""}},"lastStep":5}];
+
+let db = load();
+let route = db.lastRoute && db.lastRoute.name !== "home" ? db.lastRoute : { name: "room" };
+let toastTimer = 0;
+
+function uid() { return Math.random().toString(36).slice(2, 10); }
+function load() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : { sessions: [], trash: [], lastRoute: { name: "room" } };
+    parsed.sessions = Array.isArray(parsed.sessions) ? parsed.sessions : [];
+    parsed.trash = Array.isArray(parsed.trash) ? parsed.trash : [];
+    if (!parsed.purged || typeof parsed.purged !== "object") parsed.purged = {};
+    if (!parsed.seeded) {
+      const ids = new Set(parsed.sessions.map((session) => session.id));
+      SEED_SESSIONS.forEach((session) => {
+        if (!ids.has(session.id)) parsed.sessions.push(JSON.parse(JSON.stringify(session)));
+      });
+      parsed.seeded = true;
+    }
+    return parsed;
+  } catch (err) {
+    return { sessions: JSON.parse(JSON.stringify(SEED_SESSIONS)), trash: [], lastRoute: { name: "room" }, seeded: true, purged: {} };
+  }
+}
+function save() {
+  db.lastRoute = route;
+  rememberLocal(sharedHost() ? "Saving…" : "Saved on this computer");
+  if (sharedHost()) schedulePush();
+}
+function sharedHost() {
+  return location.protocol === "http:" || location.protocol === "https:";
+}
+function stampOf(item) {
+  return Math.max((item && item.updated) || 0, (item && item.trashed) || 0);
+}
+function digest(list) {
+  return (list || []).map((item) => item.id + ":" + stampOf(item)).sort().join("|");
+}
+function rememberLocal(note) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+    const el = document.getElementById("save-state");
+    if (el && note) el.textContent = note;
+  } catch (err) {
+    toast("This browser is not storing a copy. Copy the card before you leave.");
+  }
+}
+let pushTimer = 0;
+let pushing = false;
+function schedulePush() {
+  clearTimeout(pushTimer);
+  pushTimer = setTimeout(pushShared, 400);
+}
+function pushShared() {
+  pushTimer = 0;
+  if (!sharedHost()) return;
+  pushing = true;
+  fetch("store.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ sessions: db.sessions, trash: db.trash, purged: db.purged || {} })
+  }).then((res) => res.ok ? res.json() : Promise.reject()).then((remote) => {
+    pushing = false;
+    applyShared(remote, "Saved for everyone");
+  }).catch(() => {
+    pushing = false;
+    const el = document.getElementById("save-state");
+    if (el) el.textContent = "Saved on this computer";
+  });
+}
+function applyShared(remote, note) {
+  if (!remote || !Array.isArray(remote.sessions) || !Array.isArray(remote.trash)) return;
+  const before = digest(db.sessions) + "/" + digest(db.trash);
+  db.sessions = remote.sessions;
+  db.trash = remote.trash;
+  db.purged = remote.purged && typeof remote.purged === "object" ? remote.purged : (db.purged || {});
+  rememberLocal(note || "Saved for everyone");
+  if (before === digest(db.sessions) + "/" + digest(db.trash)) return;
+  const typing = document.activeElement && /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName);
+  if (!typing) render(true);
+}
+function mergeShared(remote) {
+  const map = new Map();
+  function take(list) {
+    (list || []).forEach((item) => {
+      if (!item || !item.id) return;
+      const prev = map.get(item.id);
+      if (!prev || stampOf(item) >= stampOf(prev)) map.set(item.id, item);
+    });
+  }
+  take(remote.sessions);
+  take(remote.trash);
+  take(db.sessions);
+  take(db.trash);
+  const purged = Object.assign({}, remote.purged || {}, db.purged || {});
+  map.forEach((item, id) => {
+    if (purged[id] && purged[id] >= stampOf(item)) map.delete(id);
+  });
+  const sessions = [];
+  const trash = [];
+  map.forEach((item) => { (item.trashed ? trash : sessions).push(item); });
+  const ahead = digest(sessions) !== digest(remote.sessions) || digest(trash) !== digest(remote.trash);
+  return { sessions: sessions, trash: trash, purged: purged, ahead: ahead };
+}
+function pullShared() {
+  if (!sharedHost() || pushing || pushTimer) return;
+  fetch("store.php", { cache: "no-store" }).then((res) => res.ok ? res.json() : Promise.reject()).then((remote) => {
+    if (!remote || !Array.isArray(remote.sessions)) return;
+    const before = digest(db.sessions) + "/" + digest(db.trash);
+    const merged = mergeShared(remote);
+    const after = digest(merged.sessions) + "/" + digest(merged.trash);
+    db.sessions = merged.sessions;
+    db.trash = merged.trash;
+    db.purged = merged.purged;
+    if (after !== before) {
+      rememberLocal("Saved for everyone");
+      const typing = document.activeElement && /^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName);
+      if (!typing) render(true);
+    }
+    if (merged.ahead) schedulePush();
+  }).catch(() => {});
+}
+function sessions() { return db.sessions.slice().sort((a, b) => b.updated - a.updated); }
+function blankTeam() {
+  const team = {};
+  ROLES.forEach((role) => { team[role.id] = { here: false, name: "" }; });
+  return team;
+}
+function ensureSession(session) {
+  if (!session.challenge) session.challenge = { problem: "", who: "", cost: "", gap: "" };
+  if (!session.value) session.value = { efficiency: false, decisions: false, monitoring: false, newValue: false };
+  if (!session.quantum) session.quantum = { sensing: false, computing: false, networks: false, safe: false, note: "" };
+  if (!session.tests) session.tests = { effectiveness: "", necessity: "", impact: "" };
+  if (!session.phase1) session.phase1 = { technical: "", economic: "", practical: "" };
+  if (!session.team || !session.team.owner) {
+    const team = blankTeam();
+    (session.participants || []).forEach((person) => {
+      if (!team[person.role]) return;
+      team[person.role].here = true;
+      const name = [person.name, person.org].filter(Boolean).join(", ");
+      team[person.role].name = team[person.role].name ? team[person.role].name + "; " + name : name;
+    });
+    session.team = team;
+  }
+  ROLES.forEach((role) => {
+    if (!session.team[role.id]) session.team[role.id] = { here: false, name: "" };
+  });
+  if (session.formVersion !== 2) {
+    if (session.published === false) {
+      const challenge = session.challenge || {};
+      const movedOn = (session.lastStep || 1) > 1 || (session.maxStep || 1) > 1;
+      const started = movedOn || challenge.problem || challenge.who || challenge.cost || challenge.gap || session.domain || session.decision;
+      if (started) {
+        session.lastStep = Math.min(STEPS.length, (session.lastStep || 1) + 1);
+        if (session.maxStep) session.maxStep = Math.min(STEPS.length, session.maxStep + 1);
+      }
+    }
+    session.formVersion = 2;
+  }
+  if (!session.maxStep) session.maxStep = session.published === false ? Math.max(1, Math.min(STEPS.length, session.lastStep || 1)) : STEPS.length;
+  return session;
+}
+function byId(id) {
+  const session = db.sessions.find((item) => item.id === id) || null;
+  return session ? ensureSession(session) : null;
+}
+function touch(session) { session.updated = Date.now(); save(); }
+function blankSession() {
+  return ensureSession({
+    id: uid(), created: Date.now(), updated: Date.now(), table: "", domain: "", title: "",
+    challenge: { problem: "", who: "", cost: "", gap: "" },
+    value: { efficiency: false, decisions: false, monitoring: false, newValue: false },
+    quantum: { sensing: false, computing: false, networks: false, safe: false, note: "" },
+    tests: { effectiveness: "", necessity: "", impact: "" },
+    decision: "", phase1: { technical: "", economic: "", practical: "" },
+    watchFor: "", stopBecause: "", participants: [], findToday: "", nextStep: "", team: blankTeam(),
+    published: false,
+    maxStep: 1,
+    formVersion: 2
+  });
+}
+function isPublished(session) { return session.published !== false; }
+function publishedSessions() { return sessions().filter(isPublished); }
+function drafts() { return sessions().filter((session) => session.published === false); }
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function domainLabel(id) { return (DOMAINS.find((d) => d.id === id) || {}).label || "Domain not chosen"; }
+function decisionLabel(id) { return (OUTCOMES.find((d) => d.id === id) || {}).label || "No decision yet"; }
+function displayTitle(session) {
+  if ((session.title || "").trim()) return session.title.trim();
+  const problem = ((session.challenge && session.challenge.problem) || "").trim();
+  if (!problem) return "Untitled challenge";
+  return problem.length > 72 ? problem.slice(0, 72) + "…" : problem;
+}
+function covers(session, role) {
+  ensureSession(session);
+  const slot = session.team[role];
+  return slot && slot.here ? [slot] : [];
+}
+function selectedQuantum(session) { return QUANTUM.filter((item) => session.quantum[item.id]); }
+function warnings(session) {
+  const notes = [];
+  if (session.decision !== "pursue") return notes;
+  if (!selectedQuantum(session).length) notes.push("Pursue is selected, and no quantum capability is chosen yet.");
+  if (session.tests.effectiveness === "no") notes.push("The table doubted this would change the challenge. Say why a proposal is still worth making.");
+  if (session.tests.necessity === "yes") notes.push("The table said a simpler approach might be enough. Phase 1 should test that first.");
+  if (!covers(session, "owner").length) notes.push("No challenge owner is marked as here.");
+  if (!covers(session, "quantum").length) notes.push("No quantum expert is marked as here.");
+  return notes;
+}
+function hints(session) {
+  const lines = [];
+  if (session.value.monitoring) lines.push("Monitoring and prediction usually point to sensors. A heavier model can also point to computing.");
+  if (session.value.decisions) lines.push("Better decisions through optimisation or simulation point to computing.");
+  if (session.value.efficiency) lines.push("A faster or cheaper result can come from sensors or from computing. Ask which constraint moves.");
+  if (session.value.newValue) lines.push("If today's technology cannot do this at all, name the capability that would make it possible.");
+  if (session.domain === "infrastructure" || session.domain === "mixed") lines.push("Long-lived assets also raise quantum-safe encryption, which ordinary computers can carry.");
+  return lines;
+}
+function go(next) {
+  if (next.name === "edit") next.step = Math.max(1, Math.min(STEPS.length, next.step || 1));
+  route = next;
+  save();
+  render();
+}
+function toast(message) {
+  const el = document.getElementById("toast");
+  el.textContent = message;
+  el.style.display = "block";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.style.display = "none"; }, 2200);
+}
+const LOGO = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 210.89 64" fill="none" aria-hidden="true"><g fill="#000"><path d="m127.36 62.37 4.73 6-3.59 2.68-4.82-6.23a16.64 16.64 0 0 1-7.23 1.64c-9.19 0-16.32-7.23-16.32-16.42s7.14-16.42 16.32-16.42 16.37 7.23 16.37 16.42c0 4.96-2.09 9.32-5.46 12.32Zm-10.92-.64c1.5 0 2.86-.23 4.14-.73l-4.96-6.32 3.55-2.68 5.18 6.59c2.09-2.09 3.27-5.09 3.27-8.55 0-6.68-4.5-11.69-11.19-11.69s-11.14 5-11.14 11.69 4.5 11.69 11.14 11.69ZM165.91 50.04c0 9.28-6.73 15.92-16.46 15.92h-10.19V34.13h10.19c9.73 0 16.46 6.64 16.46 15.92Zm-5.18 0c0-6.82-4.27-11.23-11.41-11.23h-5.05v22.46h5.05c7.14 0 11.41-4.41 11.41-11.23M172.32 34.13h4.77l17.28 23.55h.04V34.13h5v31.83h-4.77l-17.23-23.51h-.09v23.51h-5zM228.89 61.28v4.68h-20.78V34.13h5v27.15z"/></g><circle cx="50" cy="50" r="32" fill="#000"/><path fill="#fff" d="M56.57 58.41c9.28-7.25 10.93-20.66 3.68-29.94s-20.66-10.93-29.94-3.68l26.27 33.62Z"/><path fill="#000" d="M69.26 75.54c.15-.1.3-.21.44-.33-.15.11-.29.22-.44.33"/><path fill="#fff" d="M56.57 58.41c-4.64 3.63-5.47 10.33-1.84 14.97 3.51 4.5 9.91 5.41 14.53 2.17.15-.11.3-.21.44-.33z"/></svg>';
+function logo(light) {
+  const svg = light ? LOGO.replace(/#000/g, "#tmp").replace(/#fff/g, "#000").replace(/#tmp/g, "#fff") : LOGO;
+  return '<span class="brandlock">' + svg + "</span>";
+}
+function copyIcon() {
+  return '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="8" y="3.5" width="8" height="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 5.5H5.5v15h13v-15H16" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+}
+function downIcon() {
+  return '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 4v12M7 11l5 6 5-6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+}
+function closeIcon() {
+  return '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+}
+function trashIcon() {
+  return '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 7h16M9 7V5h6v2M7 7l1 13h8l1-13M10 11v6M14 11v6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+}
+function arrow(dir) {
+  const d = dir === "back" ? "M14 6 L8 12 L14 18 M8 12 H20" : "M10 6 L16 12 L10 18 M16 12 H4";
+  return '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="' + d + '" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+}
+function render(keepScroll) {
+  const mainTop = keepScroll ? (document.querySelector("main") || {}).scrollTop || 0 : 0;
+  const focusTop = keepScroll ? (document.querySelector(".focus-layer") || {}).scrollTop || 0 : 0;
+  if (route.name === "home") route = { name: "room" };
+  const session = route.name === "edit" ? byId(route.id) : null;
+  if (route.name === "edit" && !session) route = { name: "room" };
+  document.body.classList.toggle("editing", route.name === "edit");
+  document.body.classList.toggle("table-open", route.name === "room" && !!route.openId && !route.bin);
+  document.getElementById("app").innerHTML = route.name === "edit" ? editView(session) : roomView();
+  if (keepScroll) {
+    const nextMain = document.querySelector("main");
+    const nextFocus = document.querySelector(".focus-layer");
+    if (nextMain) nextMain.scrollTop = mainTop;
+    if (nextFocus) nextFocus.scrollTop = focusTop;
+  }
+  const fill = document.getElementById("progress-fill");
+  if (fill && fill.style.width !== fill.dataset.to) {
+    void fill.offsetWidth;
+    fill.style.width = fill.dataset.to;
+  }
+  fitNames();
+}
+function fitNames() {
+  document.querySelectorAll(".person textarea").forEach((area) => {
+    area.style.height = "auto";
+    area.style.height = area.scrollHeight + "px";
+  });
+}
+function roomTitle(session) {
+  const titled = displayTitle(session);
+  return titled === "Untitled challenge" ? "Untitled" : titled;
+}
+function roomMeta(session) {
+  const bits = [];
+  if (session.domain) bits.push(domainLabel(session.domain));
+  if (session.decision) bits.push(decisionLabel(session.decision));
+  return bits.join(" · ");
+}
+function roomEditor(session) {
+  const tiles = DOMAINS.map((domain) => (
+    '<button type="button"' + (session.domain === domain.id ? ' class="on"' : "") + ' data-act="domain" data-domain="' + domain.id + '"><b>' + domain.label + "</b></button>"
+  )).join("");
+  const checks = QUESTIONS.map((question) => (
+    '<button type="button" class="choice' + (session.value[question.id] ? " on" : "") + '" data-act="value" data-value="' + question.id + '" aria-pressed="' + (session.value[question.id] ? "true" : "false") + '">' + esc(question.label) + "</button>"
+  )).join("");
+  const caps = QUANTUM.map((item) => (
+    '<button type="button" class="choice' + (session.quantum[item.id] ? " on" : "") + '" data-act="quantum" data-quantum="' + item.id + '" aria-pressed="' + (session.quantum[item.id] ? "true" : "false") + '"><b>' + esc(item.label) + "</b></button>"
+  )).join("");
+  let follow = "";
+  if (session.decision === "pursue") {
+    follow = field("f-tech", "Technically", session.phase1.technical, "What has to be true of the technology?", "area") +
+      field("f-econ", "Economically", session.phase1.economic, "What has to be true of cost or the operating case?", "area") +
+      field("f-prac", "In practice", session.phase1.practical, "Data, skills, access, partners, regulation.", "area");
+  } else if (session.decision === "watch") {
+    follow = field("f-watch", "What would reopen this?", session.watchFor, "A result, a partner, or a shift in readiness.", "area");
+  } else if (session.decision === "stop") {
+    follow = field("f-stop", "Why not quantum?", session.stopBecause, "So the end user leaves with a clear reason.", "area");
+  }
+  return '<div class="card-edit" data-session="' + session.id + '">' +
+    '<div class="meta-line"><label>Name <input id="f-title" type="text" autocomplete="off" value="' + esc(session.title) + '" placeholder="Untitled"></label></div>' +
+    '<label class="field"><textarea id="f-problem" rows="4" aria-label="The problem" placeholder="What problem needs solving?">' + esc(session.challenge.problem) + "</textarea></label>" +
+    '<div class="domains" role="group" aria-label="Domain">' + tiles + "</div>" +
+    '<div class="toggles">' + checks + "</div>" +
+    '<div class="caps">' + caps + "</div>" +
+    field("f-qnote", "How this serves the challenge", session.quantum.note, "One or two sentences.", "area") +
+    '<div class="choices">' + OUTCOMES.map((item) => (
+      '<button type="button" class="outcome' + (session.decision === item.id ? " on" : "") + '" data-act="decision" data-decision="' + item.id + '"><b>' + item.label + "</b></button>"
+    )).join("") + "</div>" + follow +
+    peopleChoices(session) +
+    field("f-next", "Next step", session.nextStep, "What happens next, and who does it?", "area") +
+    '<div class="card-end"><button type="button" class="btn icon danger" data-act="delete" aria-label="Delete">' + trashIcon() + "</button></div></div>";
+}
+function floorMeta(session) {
+  const bits = [];
+  if (session.domain) bits.push(domainLabel(session.domain));
+  if (session.decision) bits.push(decisionLabel(session.decision));
+  return bits.join(" · ");
+}
+function byName(list) {
+  return list.slice().sort((a, b) => {
+    const ta = roomTitle(a);
+    const tb = roomTitle(b);
+    const aUntitled = ta === "Untitled";
+    const bUntitled = tb === "Untitled";
+    if (aUntitled !== bUntitled) return aUntitled ? 1 : -1;
+    const order = ta.localeCompare(tb, undefined, { sensitivity: "base" });
+    if (order) return order;
+    return (a.updated || 0) - (b.updated || 0);
+  });
+}
+function fullTableMark() {
+  const team = {};
+  ROLES.forEach((role) => { team[role.id] = { here: true, name: "" }; });
+  return seatFigure({ team: team });
+}
+function roomCard(session) {
+  const draft = session.published === false;
+  const meta = draft ? "In progress" : floorMeta(session);
+  const act = draft ? "continue" : "toggle";
+  const expanded = draft ? "" : ' aria-expanded="' + (route.openId === session.id ? "true" : "false") + '"';
+  return '<article class="room-card place"><button type="button" class="table-btn" data-act="' + act + '" data-id="' + session.id + '"' + expanded + '>' + seatFigure(session) + '<span class="table-name"><span class="table-label">' + esc(roomTitle(session)) + "</span>" + (meta ? '<span class="table-meta">' + esc(meta) + "</span>" : "") + "</span></button></article>";
+}
+function tableFocus(session) {
+  const meta = floorMeta(session);
+  return '<div class="focus-layer"><button type="button" class="focus-dim" data-act="close-table" aria-label="Close table"></button><div class="focus-card" role="dialog" aria-modal="true" aria-labelledby="focus-title"><div class="focus-top">' + seatFigure(session) + '<div><h2 id="focus-title" class="table-label">' + esc(roomTitle(session)) + "</h2>" + (meta ? '<p class="table-meta">' + esc(meta) + "</p>" : "") + '</div><button type="button" class="btn icon close" data-act="close-table" aria-label="Close">' + closeIcon() + "</button></div>" + roomEditor(session) + "</div></div>";
+}
+function trashItems() {
+  if (!Array.isArray(db.trash)) db.trash = [];
+  return db.trash.slice().sort((a, b) => (b.trashed || b.updated || 0) - (a.trashed || a.updated || 0));
+}
+function trashCard(session) {
+  const meta = roomMeta(session);
+  return '<article class="room-card"><div class="card-head"><span><b>' + esc(roomTitle(session)) + "</b>" +
+    (meta ? '<span class="meta">' + esc(meta) + "</span>" : "") +
+    '</span><button type="button" class="btn icon" data-act="restore" data-id="' + session.id + '" aria-label="Restore">' + arrow("back") + "</button></div></article>";
+}
+function roomActions() {
+  const count = trashItems().length;
+  const open = !!route.bin;
+  return '<div class="room-actions"><button type="button" class="btn icon add" data-act="new" aria-label="New table">' +
+    '<svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>' +
+    fullTableMark() + "</button>" +
+    '<button type="button" class="btn icon export no-print" data-act="export-all" aria-label="Export"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 4v12M7 11l5 6 5-6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>' +
+    '<button type="button" class="btn icon bin' + (open ? " on" : "") + '" data-act="bin" aria-label="Trash" aria-pressed="' + (open ? "true" : "false") + '">' +
+    trashIcon() + (count ? '<span class="bin-count">' + count + "</span>" : "") + "</button></div>";
+}
+function roomView() {
+  const all = publishedSessions();
+  const pursue = all.filter((session) => session.decision === "pursue");
+  const floor = '<div class="floor" id="room-list">' + floorList() + "</div>";
+  const live = all.length
+    ? '<div class="room-stats"><span>' + all.length + " table" + (all.length === 1 ? "" : "s") + "</span><span>" + pursue.length + " pursue</span><span>" +
+      all.filter((s) => s.decision === "watch").length + " watching</span><span>" + all.filter((s) => s.decision === "stop").length + " not for quantum</span></div>" +
+      '<div class="filters no-print"><select id="filter-domain" data-filter="domain"><option value="">All domains</option>' + DOMAINS.map((d) => '<option value="' + d.id + '"' + (db.filterDomain === d.id ? " selected" : "") + ">" + esc(d.label) + "</option>").join("") + "</select>" +
+      '<select id="filter-decision" data-filter="decision"><option value="">All decisions</option>' + OUTCOMES.map((d) => '<option value="' + d.id + '"' + (db.filterDecision === d.id ? " selected" : "") + ">" + esc(d.label) + "</option>").join("") + "</select></div>" + floor
+    : (drafts().length ? floor : '<p class="muted">No tables yet.</p>');
+  const held = trashItems();
+  const bin = held.length
+    ? '<div class="room-grid">' + held.map(trashCard).join("") + '</div><button type="button" class="btn text" data-act="empty-trash">Empty</button>'
+    : '<p class="muted">Trash is empty.</p>';
+  const opened = !route.bin && route.openId ? byId(route.openId) : null;
+  return '<div class="room-screen">' + header(false, true) + '<main class="start"><div class="wrap wide"><div class="room-top"><h1>Table room</h1>' + roomActions() + "</div>" +
+    (route.bin ? bin : live) + "</div></main></div>" + (opened ? tableFocus(opened) : "");
+}
+function matchesFilter(session) {
+  if (db.filterDomain && session.domain !== db.filterDomain) return false;
+  if (db.filterDecision && session.decision !== db.filterDecision) return false;
+  return true;
+}
+function filteredSessions() {
+  return publishedSessions().filter(matchesFilter);
+}
+function floorSessions() {
+  const started = drafts().filter(matchesFilter).sort((a, b) => (b.updated || 0) - (a.updated || 0));
+  return started.concat(byName(filteredSessions()));
+}
+function floorList() {
+  return floorSessions().map(roomCard).join("") || '<p class="muted">No tables match.</p>';
+}
+function header(session, wide) {
+  return '<header class="top"><div class="wrap' + (wide ? " wide" : "") + ' top-inner"><button type="button" class="brandlock" data-act="home" aria-label="Table room">' + logo(false) + '</button><div class="top-meta"><span class="event-label">Matchmaking · ' + EVENT_DATE + "</span></div></div></header>";
+}
+let shownProgress = null;
+let shownProgressId = null;
+let revealSeat = "";
+function formProgress(session) {
+  const step = route.step || 1;
+  if (shownProgressId !== session.id) {
+    shownProgress = null;
+    shownProgressId = session.id;
+  }
+  const far = session.published === false ? (session.maxStep || 1) : STEPS.length;
+  const labels = STEPS.map((item) => {
+    const current = item.id === step;
+    const locked = item.id > far;
+    const cls = current ? "now" : locked ? "wait" : "done";
+    const inner = current || locked
+      ? "<span" + (current ? ' aria-current="step"' : "") + ">" + item.short + "</span>"
+      : '<button type="button" data-act="step" data-step="' + item.id + '">' + item.short + "</button>";
+    return '<li class="' + cls + '">' + inner + "</li>";
+  }).join("");
+  const width = Math.round((step / STEPS.length) * 100);
+  const from = shownProgress == null ? width : shownProgress;
+  shownProgress = width;
+  const currentName = STEPS[step - 1].short;
+  return '<div class="form-bar no-print"><div class="track" role="progressbar" aria-valuemin="1" aria-valuemax="' + STEPS.length + '" aria-valuenow="' + step + '" aria-valuetext="' + esc(currentName) + '"><span id="progress-fill" style="width:' + from + '%" data-to="' + width + '%"></span></div>' +
+    "<ol>" + labels + "</ol></div>";
+}
+function jumpBtn(dir, stepId) {
+  const target = STEPS[stepId - 1];
+  const label = (dir === "back" ? "Back to " : "On to ") + target.short;
+  const inner = dir === "back" ? arrow("back") + "<span>" + target.short + "</span>" : "<span>" + target.short + "</span>" + arrow("next");
+  return '<button type="button" class="btn jump' + (dir === "back" ? " secondary" : "") + '" aria-label="' + label + '" data-act="step" data-step="' + stepId + '">' + inner + "</button>";
+}
+function editView(session) {
+  const step = route.step || 1;
+  const body = [nameStep, problemStep, quantumStep, decisionStep, teamStep, cardStep][step - 1](session);
+  const back = step === 1 ? "" : jumpBtn("back", step - 1);
+  const next = step < STEPS.length ? jumpBtn("next", step + 1) : '<button type="button" class="btn jump" data-act="publish">Publish</button>';
+  return header(session) + '<main><div class="wrap">' + formProgress(session) + body + "</div></main>" +
+    '<div class="dock no-print"><div class="wrap"><div class="dock-side">' + back + '</div><div class="dock-side end">' + next + "</div></div></div>";
+}
+function nameStep(session) {
+  return stepHead(1, "Name this table") +
+    '<label class="field"><input id="f-title" type="text" autocomplete="off" value="' + esc(session.title) + '" placeholder="Untitled" aria-label="Name"></label>';
+}
+function stepHead(n, title, lead) {
+  return "<h2>" + title + "</h2>" + (lead ? '<p class="lead">' + lead + "</p>" : "");
+}
+function problemStep(session) {
+  const tiles = DOMAINS.map((domain) => (
+    '<button type="button"' + (session.domain === domain.id ? ' class="on"' : "") + ' data-act="domain" data-domain="' + domain.id + '"><b>' + domain.label + "</b></button>"
+  )).join("");
+  const groups = session.domain && session.domain !== "mixed" ? [session.domain] : ["water", "energy", "infrastructure"];
+  return stepHead(2, "What problem needs solving?") +
+    '<label class="field"><textarea id="f-problem" rows="5" aria-label="The problem" placeholder="A few sentences the challenge owner would recognise.">' + esc(session.challenge.problem) + "</textarea></label>" +
+    '<p class="ask">Which area?</p><div class="domains" role="group" aria-label="Domain">' + tiles + "</div>" +
+    '<details class="no-print"><summary>If the table is stuck, offer a prompt</summary><p class="fine">From examples in the 2023 EQTA. These are conversation starters.</p>' +
+    groups.map((id) => "<p><b>" + esc(domainLabel(id)) + "</b></p><ul>" + PROMPTS[id].map((line) => "<li>" + esc(line) + "</li>").join("") + "</ul>").join("") + "</details>" +
+    '<details><summary>Add who carries it, and why today falls short</summary>' +
+    field("f-who", "Who carries this, day to day?", session.challenge.who, "An operator, a team, a community, a control room.", "area") +
+    field("f-cost", "What happens if it stays unsolved?", session.challenge.cost, "The cost, the risk, or the missed duty.", "area") +
+    field("f-gap", "Why is the current approach not enough?", session.challenge.gap, "What has already been tried.", "area") + "</details>";
+}
+function quantumStep(session) {
+  const checks = QUESTIONS.map((question) => (
+    '<button type="button" class="choice' + (session.value[question.id] ? " on" : "") + '" data-act="value" data-value="' + question.id + '" aria-pressed="' + (session.value[question.id] ? "true" : "false") + '">' + esc(question.label) + "</button>"
+  )).join("");
+  const cards = QUANTUM.map((item) => (
+    '<button type="button" class="choice' + (session.quantum[item.id] ? " on" : "") + '" data-act="quantum" data-quantum="' + item.id + '" aria-pressed="' + (session.quantum[item.id] ? "true" : "false") + '"><b>' + esc(item.label) + "</b><span>" + esc(item.text) + "</span></button>"
+  )).join("");
+  return stepHead(2, "Where can quantum help?") +
+    '<p class="ask">Click the statements that are true.</p><div class="toggles">' + checks + '</div><div id="hint">' + hintBlock(hints(session)) + '</div>' +
+    '<p class="ask">If one of those fits, which capability could do it?</p><div class="caps">' + cards + "</div>" +
+    field("f-qnote", "How would this serve the challenge?", session.quantum.note, "One or two sentences. Leave blank if nothing fits.", "area") +
+    '<p class="fine">Sensors are the closest. Computers that solve serious problems are further away. Quantum-safe encryption can start now, on ordinary computers. These notes are from the 2023 EQTA, not a current technical assessment.</p>';
+}
+function decisionStep(session) {
+  let follow = "";
+  if (session.decision === "pursue") {
+    follow = '<h3 style="font-size:22px;text-transform:uppercase;font-weight:400;letter-spacing:-0.03em">What Phase 1 has to find out</h3><p class="fine">The funding investigates whether the opportunity is viable. It does not build the full solution.</p>' +
+      field("f-tech", "Technically", session.phase1.technical, "What has to be true of the technology?", "area") +
+      field("f-econ", "Economically", session.phase1.economic, "What has to be true of cost or the operating case?", "area") +
+      field("f-prac", "In practice", session.phase1.practical, "Data, skills, access, partners, regulation.", "area");
+  } else if (session.decision === "watch") {
+    follow = field("f-watch", "What would need to change before this is worth reopening?", session.watchFor, "A result, a partner, or a shift in readiness.", "area");
+  } else if (session.decision === "stop") {
+    follow = field("f-stop", "Why is quantum not the right tool?", session.stopBecause, "So the end user leaves with a clear reason.", "area");
+  }
+  return stepHead(3, "What would a viable solution look like?") +
+    '<p class="ask">Would this change the challenge?</p>' + segment("tests.effectiveness", session.tests.effectiveness, [["yes", "Yes"], ["mixed", "Not sure"], ["no", "No"]]) +
+    '<p class="ask">Could a simpler approach, without quantum, be enough?</p>' + segment("tests.necessity", session.tests.necessity, [["yes", "Yes"], ["mixed", "Not sure"], ["no", "No"]]) +
+    '<p class="ask">Choose one.</p><div class="choices">' + OUTCOMES.map((item) => (
+      '<button type="button" class="outcome' + (session.decision === item.id ? " on" : "") + '" data-act="decision" data-decision="' + item.id + '"><b>' + item.label + "</b><span>" + item.text + "</span></button>"
+    )).join("") + "</div>" + follow + warningMount(session);
+}
+function peopleChoices(session) {
+  const cards = ROLES.map((role) => {
+    const on = !!session.team[role.id].here;
+    const turning = revealSeat === role.id ? " turn" : "";
+    return '<div class="person' + (on ? " on" : "") + turning + '" data-role="' + role.id + '"><div class="person-inner">' +
+      '<button type="button" class="face front" data-act="here" data-role="' + role.id + '" data-here="yes" aria-pressed="' + (on ? "true" : "false") + '"' + (on ? ' aria-hidden="true" tabindex="-1"' : "") + '><b>' + esc(role.label) + "</b></button>" +
+      '<div class="face back" data-act="here" data-role="' + role.id + '" data-here="no"' + (on ? "" : ' aria-hidden="true"') + '>' +
+      '<button type="button" class="turn" data-act="here" data-role="' + role.id + '" data-here="no"' + (on ? "" : ' tabindex="-1"') + '>' + esc(role.label) + "</button>" +
+      '<textarea rows="2" autocomplete="off" placeholder="Name and organisation" aria-label="Name and organisation, ' + esc(role.label) + '" data-slot="' + role.id + '"' + (on ? "" : ' tabindex="-1"') + '>' + esc(session.team[role.id].name) + "</textarea>" +
+      "</div></div></div>";
+  }).join("");
+  return '<div class="choices people">' + cards + "</div>";
+}
+function teamStep(session) {
+  return '<div class="who">' + stepHead(4, "Who is at the table?") +
+    peopleChoices(session) +
+    seatFigure(session) +
+    field("f-find", "Who will you look for before you leave the room?", session.findToday, "A name, an organisation, or a kind of expertise.", "input") +
+    field("f-next", "The next concrete step", session.nextStep, "What happens next, and who does it?", "area") +
+    warningMount(session) + "</div>";
+}
+const SEATS = [
+  { id: "domain", file: "seats/quantum.png" },
+  { id: "quantum", file: "seats/commercial.png" },
+  { id: "table", file: "seats/table.png" },
+  { id: "owner", file: "seats/owner.png" },
+  { id: "commercial", file: "seats/societal.png" }
+];
+function seatFigure(session) {
+  const present = ROLES.filter((role) => session.team[role.id] && session.team[role.id].here);
+  return '<figure class="seats" aria-hidden="true">' + SEATS.map((seat) => {
+    const on = seat.id === "table" ? true : present.some((role) => role.id === seat.id);
+    const arriving = seat.id !== "table" && on && revealSeat === seat.id;
+    const cls = (on ? "on" : "") + (arriving ? " arrive" : "");
+    return '<img src="' + seat.file + '" alt="" class="' + cls.trim() + '">';
+  }).join("") + "</figure>";
+}
+function cardStep(session) {
+  return '<h2 class="no-print">Your table menu.</h2>' + warningMount(session) +
+    '<article class="card" id="takeaway">' + cardInner(session) + "</article>" +
+    '<div class="row-actions no-print" style="margin-top:14px"><button type="button" class="btn icon" data-act="copy" aria-label="Copy to clipboard">' + copyIcon() + '</button>' +
+    '<button type="button" class="btn icon secondary" data-act="export-one" aria-label="Export">' + downIcon() + '</button>' +
+    '<button type="button" class="btn icon danger" data-act="delete" aria-label="Delete">' + trashIcon() + "</button></div>";
+}
+function cardInner(session) {
+  const angle = selectedQuantum(session);
+  const angleText = angle.length ? angle.map((item) => item.label).join(", ") + (session.quantum.note.trim() ? "\n" + session.quantum.note.trim() : "") : "No quantum capability selected.";
+  const here = ROLES.filter((role) => session.team[role.id].here).map((role) => (session.team[role.id].name.trim() || "Name not entered") + " — " + role.label).join("\n") || "No one marked as here.";
+  const missing = ROLES.filter((role) => !session.team[role.id].here).map((role) => role.label);
+  let decisionBody = decisionLabel(session.decision);
+  if (session.decision === "pursue") decisionBody += "\nTechnically: " + orDash(session.phase1.technical) + "\nEconomically: " + orDash(session.phase1.economic) + "\nIn practice: " + orDash(session.phase1.practical);
+  else if (session.decision === "watch") decisionBody += "\n" + orDash(session.watchFor);
+  else if (session.decision === "stop") decisionBody += "\n" + orDash(session.stopBecause);
+  return '<div class="card-top">' + logo(true) + '<span class="pill">Solutions Forward Challenges</span></div><div class="card-body"><div class="pills"><span class="pill">' + esc(domainLabel(session.domain)) + '</span><span class="pill">' + esc(decisionLabel(session.decision)) + "</span></div>" +
+    "<h3>" + esc(displayTitle(session)) + "</h3><h4>The challenge</h4><p>" + esc(challengeText(session)) + "</p><h4>Quantum</h4><p>" + esc(angleText) + "</p><h4>Decision</h4><p>" + esc(decisionBody) + "</p>" +
+    "<h4>Around the table</h4><p>" + esc(here) + "</p><h4>Still looking</h4><p>" + esc(missing.length ? missing.join(", ") : "The four roles are represented.") + "</p>" +
+    "<h4>Before you leave</h4><p>" + esc(orDash(session.findToday)) + "</p><h4>Next step</h4><p>" + esc(orDash(session.nextStep)) + "</p>" +
+    '<p class="fine">' + EVENT_DATE + "<br>Not a funding decision. Phase 1 deadline " + DEADLINE + ".</p></div>";
+}
+function challengeText(session) {
+  const parts = [session.challenge.problem, session.challenge.who && "Who carries it: " + session.challenge.who, session.challenge.cost && "If unsolved: " + session.challenge.cost, session.challenge.gap && "Why today falls short: " + session.challenge.gap].filter(Boolean);
+  return parts.join("\n\n") || "Not filled in yet.";
+}
+function orDash(value) { return value && String(value).trim() ? String(value).trim() : "—"; }
+function warningBlock(session) {
+  return warnings(session).map((note) => '<div class="warn">' + esc(note) + "</div>").join("");
+}
+function warningMount(session) { return '<div id="warnings">' + warningBlock(session) + "</div>"; }
+function hintBlock(lines) { return lines.length ? '<div class="note">' + lines.map((line) => "<div>" + esc(line) + "</div>").join("") + "</div>" : ""; }
+function segment(path, current, options) {
+  return '<div class="seg">' + options.map(([value, label]) => (
+    '<button type="button" data-act="set" data-path="' + path + '" data-value="' + value + '"' + (current === value ? ' class="on"' : "") + ' aria-pressed="' + (current === value ? "true" : "false") + '">' + label + "</button>"
+  )).join("") + "</div>";
+}
+function field(id, label, value, placeholder, kind) {
+  const control = kind === "input"
+    ? '<input id="' + id + '" type="text" autocomplete="off" value="' + esc(value) + '" placeholder="' + esc(placeholder) + '">'
+    : '<textarea id="' + id + '" rows="4" placeholder="' + esc(placeholder) + '">' + esc(value) + "</textarea>";
+  return '<label class="field"><span>' + label + "</span>" + control + "</label>";
+}
+function plainCard(session) {
+  const article = document.createElement("article");
+  article.innerHTML = cardInner(session);
+  return "Solutions Forward Challenges\n" + EVENT_DATE + "\n\n" + (article.innerText || "").trim();
+}
+function download(filename, data) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+}
+function exportSessions(list) {
+  download("solutions-forward-challenges.json", { event: "Solutions Forward Challenges", date: EVENT_DATE, exported: new Date().toISOString(), sessions: list });
+}
+function actedSession(node) {
+  const host = node && node.closest && node.closest("[data-session]");
+  if (host) return byId(host.dataset.session);
+  if (route.name === "edit") return byId(route.id);
+  return null;
+}
+function onEdit(event) {
+  const el = event.target;
+  const session = actedSession(el);
+  if (!session) return;
+  const map = {
+    "f-title": (s, v) => { s.title = v; },
+    "f-problem": (s, v) => { s.challenge.problem = v; },
+    "f-who": (s, v) => { s.challenge.who = v; },
+    "f-cost": (s, v) => { s.challenge.cost = v; },
+    "f-gap": (s, v) => { s.challenge.gap = v; },
+    "f-qnote": (s, v) => { s.quantum.note = v; },
+    "f-tech": (s, v) => { s.phase1.technical = v; },
+    "f-econ": (s, v) => { s.phase1.economic = v; },
+    "f-prac": (s, v) => { s.phase1.practical = v; },
+    "f-watch": (s, v) => { s.watchFor = v; },
+    "f-stop": (s, v) => { s.stopBecause = v; },
+    "f-find": (s, v) => { s.findToday = v; },
+    "f-next": (s, v) => { s.nextStep = v; }
+  };
+  if (map[el.id]) {
+    map[el.id](session, el.value);
+    touch(session);
+    if (el.id === "f-title") {
+      const name = roomTitle(session);
+      const floor = document.querySelector('.table-btn[data-id="' + session.id + '"] .table-label');
+      if (floor) floor.textContent = name;
+      const head = document.querySelector(".focus-card .table-label");
+      if (head) head.textContent = name;
+    }
+    return;
+  }
+  if (el.dataset.slot && session.team[el.dataset.slot]) {
+    session.team[el.dataset.slot].name = el.value;
+    touch(session);
+    fitNames();
+  }
+}
+document.getElementById("app").addEventListener("input", onEdit);
+document.getElementById("app").addEventListener("change", (event) => {
+  if (event.target.dataset && event.target.dataset.filter) {
+    if (event.target.dataset.filter === "domain") db.filterDomain = event.target.value;
+    if (event.target.dataset.filter === "decision") db.filterDecision = event.target.value;
+    save();
+    const list = document.getElementById("room-list");
+    if (list) list.innerHTML = floorList();
+    return;
+  }
+  onEdit(event);
+});
+document.getElementById("app").addEventListener("click", (event) => {
+  if (event.target.closest("input, textarea, select")) return;
+  const act = event.target.closest("[data-act]");
+  if (!act) return;
+  const session = actedSession(act);
+  const action = act.dataset.act;
+  if (action === "home" || action === "room") return go({ name: "room" });
+  if (action === "toggle") {
+    route = { name: "room", openId: route.openId === act.dataset.id ? null : act.dataset.id };
+    save();
+    render();
+    return;
+  }
+  if (action === "close-table") {
+    route = { name: "room" };
+    save();
+    render();
+    return;
+  }
+  if (action === "bin") {
+    route = { name: "room", bin: !route.bin };
+    save();
+    render();
+    return;
+  }
+  if (action === "new") {
+    const created = blankSession();
+    db.sessions.push(created);
+    go({ name: "edit", id: created.id, step: 1 });
+    const box = document.getElementById("f-title");
+    if (box) box.focus();
+    return;
+  }
+  if (action === "continue") {
+    const target = byId(act.dataset.id);
+    if (!target) return;
+    return go({ name: "edit", id: target.id, step: Math.max(1, Math.min(STEPS.length, target.lastStep || 1)) });
+  }
+  if (action === "open") {
+    return go({ name: "room", openId: act.dataset.id });
+  }
+  if (action === "step") {
+    const step = Number(act.dataset.step);
+    if (session) {
+      const far = session.published === false ? (session.maxStep || 1) : STEPS.length;
+      if (step > far + 1) return;
+      if (step > far) session.maxStep = step;
+      session.lastStep = step;
+      touch(session);
+    }
+    return go({ name: "edit", id: route.id, step: step });
+  }
+  if (action === "export-all") return exportSessions(publishedSessions());
+  if (action === "restore") {
+    const item = trashItems().find((entry) => entry.id === act.dataset.id);
+    if (!item) return;
+    db.trash = db.trash.filter((entry) => entry.id !== item.id);
+    delete item.trashed;
+    item.updated = Date.now();
+    ensureSession(item);
+    db.sessions.push(item);
+    save();
+    render();
+    return;
+  }
+  if (action === "empty-trash") {
+    if (!trashItems().length) return;
+    if (!confirm("Empty the trash?")) return;
+    const now = Date.now();
+    if (!db.purged) db.purged = {};
+    db.trash.forEach((item) => { db.purged[item.id] = now; });
+    db.trash = [];
+    save();
+    render();
+    return;
+  }
+  if (!session) return;
+  if (action === "domain") { session.domain = act.dataset.domain; touch(session); render(true); return; }
+  if (action === "value") {
+    session.value[act.dataset.value] = !session.value[act.dataset.value];
+    touch(session);
+    act.classList.toggle("on", session.value[act.dataset.value]);
+    act.setAttribute("aria-pressed", session.value[act.dataset.value] ? "true" : "false");
+    const hint = document.getElementById("hint");
+    if (hint) hint.innerHTML = hintBlock(hints(session));
+    return;
+  }
+  if (action === "quantum") {
+    session.quantum[act.dataset.quantum] = !session.quantum[act.dataset.quantum];
+    touch(session);
+    act.classList.toggle("on", session.quantum[act.dataset.quantum]);
+    act.setAttribute("aria-pressed", session.quantum[act.dataset.quantum] ? "true" : "false");
+    return;
+  }
+  if (action === "set") {
+    const [group, key] = act.dataset.path.split(".");
+    session[group][key] = act.dataset.value;
+    touch(session);
+    document.querySelectorAll('[data-path="' + act.dataset.path + '"]').forEach((button) => {
+      const on = button.dataset.value === act.dataset.value;
+      button.classList.toggle("on", on);
+      button.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+    const box = document.getElementById("warnings");
+    if (box) box.innerHTML = warningBlock(session);
+    return;
+  }
+  if (action === "decision") { session.decision = act.dataset.decision; touch(session); render(true); return; }
+  if (action === "here") {
+    const slot = session.team[act.dataset.role];
+    const turningOn = !!(slot && act.dataset.here === "yes" && !slot.here);
+    if (slot) slot.here = act.dataset.here === "yes";
+    revealSeat = act.dataset.role;
+    touch(session);
+    render(true);
+    if (turningOn) {
+      const input = document.querySelector('.person[data-role="' + act.dataset.role + '"] [data-slot]');
+      if (input) input.focus();
+    }
+    revealSeat = "";
+    return;
+  }
+  if (action === "copy") {
+    const text = plainCard(session);
+    const done = () => toast("Card copied");
+    if (fallbackCopy(text)) { done(); return; }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done).catch(() => toast("Copy failed."));
+    else toast("Copy failed.");
+    return;
+  }
+  if (action === "publish") {
+    session.published = true;
+    session.lastStep = STEPS.length;
+    touch(session);
+    return go({ name: "room", openId: session.id });
+  }
+  if (action === "export-one") return exportSessions([session]);
+  if (action === "delete") {
+    const item = db.sessions.find((entry) => entry.id === session.id);
+    if (!item) return;
+    item.trashed = Date.now();
+    db.sessions = db.sessions.filter((entry) => entry.id !== item.id);
+    db.trash.push(item);
+    go({ name: "room" });
+  }
+});
+function fallbackCopy(text) {
+  const area = document.createElement("textarea");
+  area.value = text;
+  area.setAttribute("readonly", "");
+  area.style.position = "fixed";
+  area.style.top = "0";
+  area.style.left = "0";
+  area.style.opacity = "0";
+  document.body.appendChild(area);
+  area.focus();
+  area.select();
+  area.setSelectionRange(0, area.value.length);
+  let ok = false;
+  try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
+  area.remove();
+  return ok;
+}
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape" || route.name !== "room" || !route.openId) return;
+  route = { name: "room" };
+  save();
+  render();
+});
+render();
+pullShared();
+setInterval(pullShared, 12000);
+</script>
+</body>
+</html>

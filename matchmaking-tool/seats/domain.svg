@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 640 1140" width="320" height="570">
+  <rect x="20" y="20" width="640" height="1140" fill="#fff"/>
+
+  <!-- rear post + rear leg (one continuous piece, left edge of the chair) -->
+  <path d="M42,70 Q42,48 60,44 L134,430 L142,440 L172,612 L192,690 L114,1136 L106,1134 L148,676 L100,440 Z" fill="#000"/>
+
+  <!-- padded backrest -->
+  <path d="M72,56 Q74,44 92,46 L148,70 Q168,80 174,104 L218,372 Q222,396 204,412 L166,430 Q150,434 144,420 Z" fill="#000"/>
+
+  <!-- rear stile joining backrest to seat -->
+  <path d="M184,434 L212,424 L244,586 L208,598 Z" fill="#000"/>
+
+  <!-- far-side rear leg (thin, behind) -->
+  <path d="M222,708 L266,700 L206,1064 L197,1062 Z" fill="#000"/>
+  <!-- far-side front leg -->
+  <path d="M560,690 L592,676 L588,724 L566,1014 L560,1012 Z" fill="#000"/>
+
+  <!-- seat frame / apron -->
+  <path d="M150,668 Q158,642 192,638 L560,642 Q612,644 632,622 Q646,646 612,672 Q586,690 556,694 L492,684 L206,694 Q160,698 150,668 Z" fill="#000"/>
+
+  <!-- near front leg -->
+  <path d="M494,682 L556,694 L548,1140 L538,1140 Z" fill="#000"/>
+
+  <!-- white gap that separates the frame from the far legs -->
+  <path d="M206,696 L492,686" stroke="#fff" stroke-width="9" fill="none"/>
+
+  <!-- seat cushion with white outline -->
+  <path d="M206,614 Q208,602 228,600 L584,578 Q620,578 628,598 Q626,616 600,624 L238,630 Q206,630 206,614 Z"
+        fill="#000" stroke="#fff" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M206,614 Q208,602 228,600 L584,578 Q620,578 628,598 Q626,616 600,624 L238,630 Q206,630 206,614 Z" fill="#000"/>
+</svg>
